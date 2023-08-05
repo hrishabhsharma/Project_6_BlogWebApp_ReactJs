@@ -452,6 +452,7 @@ const DataStorage = (props) => {
         subheading: 'Dwayne Johnson reflects on his controversial DC film Black Adam & what went wrong with it. Here\'s what he has to say about it!',
         content: 'The DC Universe has been going through huge changes, and it began with the appointment of James Gunn and Peter Safran as the new heads. Dwayne Johnson, who made his DCEU debut with Black Adam, got pulled into many controversies, especially for bringing back Henry Cavill’s Superman. Now, the actor has once again reflected on that time and what went wrong. Scroll below to get the deets. Johnson’s superhero film came out in 2022, and it received mixed reviews from the audience, but out and out, it was The Rock’s film, and he did it well to promote it, but things did not pan out in his favour. But bringing back Cavill for the post-credit sure gave hope among fans, only to get shattered soon after Gunn and Safran took over the DCU.',
         date: 'August 5, 2023',
+        name: 'Hrishabh'
       },
       {
         id: 48,
