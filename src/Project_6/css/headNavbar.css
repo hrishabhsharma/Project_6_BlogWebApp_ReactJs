@@ -1,0 +1,27 @@
+.Logo{
+    display: flex;
+    justify-content: center;
+}
+.Logo>.left{
+    writing-mode: vertical-lr;
+    transform: scale(-1, -1);
+    align-self: center;  
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+.Logo>.right{
+    font-size: 4.5em;
+    font-weight: bolder;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid rgb(207, 202, 202);
+    padding: 10px 0px;
+    margin-bottom: 5em;
+}
+.Navbar > a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+}
