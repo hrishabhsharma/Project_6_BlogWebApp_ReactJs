@@ -1,10 +1,13 @@
 import React, { useContext } from 'react'
 import { DataStorage } from '../DataStorage'
+import HeadNavbar from './HeadNavbar'
 
 const HomeComp = () => {
   const Data = useContext(DataStorage)
   console.log(Data)
   return (
+    <>
+    <HeadNavbar/>
     <div id='Home'>
       <div className='homeMain'>
         <div className='a'>Ttile of gallery</div>
@@ -17,6 +20,7 @@ const HomeComp = () => {
         
       </div>
     </div>
+    </>
   )
 }
 

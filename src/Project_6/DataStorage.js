@@ -12,7 +12,7 @@ const Data = [
   subheading:
    "Kiara Advani's philanthropic efforts have garnered attention. She actively participates in various charitable initiatives and supports causes close to her heart. She started as a child model, Kiara's path to Bollywood success has been nothing short of extraordinary.",
   content:
-   'Starting as a child model, Kiara\'s path to Bollywood success has been nothing short of extraordinary. The young Kiara, born as Alia Advani but changed her name to Kiara Advani, as suggested by Salman Khan. She initially ventured into the modeling world and quickly gained recognition for her striking looks and charming presence on the runway. Gradually, her passion for performing arts led her to explore acting opportunities. Kiara\'s Bollywood debut came with the 2014 film "Fugly," which received a mixed response. However, it was her breakthrough role as Sakshi Dhoni, the wife of Indian cricket legend MS Dhoni, in the biopic "M.S. Dhoni: The Untold Story" (2016) that catapulted her to stardom. Her convincing portrayal earned her accolades and marked a turning point in her career. Following her successful debut, Kiara ventured into various genres, proving her versatility as an actress.',
+   'Starting as a child model, Kiara\'s path to Bollywood success has been nothing short of extraordinary. The young Kiara, born as Alia Advani but changed her name to Kiara Advani, as suggested by Salman Khan. She initially ventured into the modeling world and quickly gained recognition for her striking looks and charming presence on the runway. Gradually, her passion for performing arts led her to explore acting opportunities.   Kiara\'s Bollywood debut came with the 2014 film "Fugly," which received a mixed response. However, it was her breakthrough role as Sakshi Dhoni, the wife of Indian cricket legend MS Dhoni, in the biopic "M.S. Dhoni: The Untold Story" (2016) that catapulted her to stardom. Her convincing portrayal earned her accolades and marked a turning point in her career. Following her successful debut, Kiara ventured into various genres, proving her versatility as an actress.',
   date: "July 31, 2023",
  },
  {
@@ -26,7 +26,7 @@ const Data = [
   subheading:
    'In a sudden shift of events, the hotly anticipated "OMG - Oh My God!" sequel gets involved in a contentious debate. The Central Board of Film Certification (CBFC) has suggested changing Akshay Kumar\'s iconic portrayal of Lord Shiva in "OMG 2."',
   content:
-   'OMG 2 Controversy: In a surprising turn of events, the highly anticipated sequel to the blockbuster "OMG - Oh My God!" is embroiled in a heated controversy. Reports suggest that the Central Board of Film Certification (CBFC) has recommended altering Akshay Kumar\'s iconic portrayal of Lord Shiva in "OMG 2." The original film, released several years ago, garnered immense praise for its thought-provoking storyline and Akshay Kumar\'s remarkable performance as the modern-day Lord Shiva. However, with "OMG 2" in the works, the CBFC\'s suggestion to replace Lord Shiva\'s character with a different mythological figure has raised eyebrows among fans and cinephiles alike. The CBFC\'s decision has sparked debates within the film industry and among audiences about artistic freedom and the portrayal of religious figures on the big screen. Some argue that altering Lord Shiva\'s character could dilute the essence of the film\'s message, which focused on questioning religious practices and embracing spirituality beyond conventions. As the controversy gains momentum, the production team of "OMG 2" has remained tight-lipped about the proposed changes, leaving fans eagerly awaiting an official statement.',
+   'OMG 2 Controversy: In a surprising turn of events, the highly anticipated sequel to the blockbuster "OMG - Oh My God!" is embroiled in a heated controversy. Reports suggest that the Central Board of Film Certification (CBFC) has recommended altering Akshay Kumar\'s iconic portrayal of Lord Shiva in "OMG 2."  The original film, released several years ago, garnered immense praise for its thought-provoking storyline and Akshay Kumar\'s remarkable performance as the modern-day Lord Shiva. However, with "OMG 2" in the works, the CBFC\'s suggestion to replace Lord Shiva\'s character with a different mythological figure has raised eyebrows among fans and cinephiles alike.  The CBFC\'s decision has sparked debates within the film industry and among audiences about artistic freedom and the portrayal of religious figures on the big screen. Some argue that altering Lord Shiva\'s character could dilute the essence of the film\'s message, which focused on questioning religious practices and embracing spirituality beyond conventions. As the controversy gains momentum, the production team of "OMG 2" has remained tight-lipped about the proposed changes, leaving fans eagerly awaiting an official statement.',
   date: "July 31, 2023",
  },
  {
@@ -130,7 +130,7 @@ const Data = [
   genre: "Bollywood",
   ref: "https://www.bollywoodlife.com/news-gossip/anurag-kashyap-raves-about-karan-johar-new-movie-rocky-aur-rani-kii-prem-kahaani-shares-highlight-of-ranveer-singh-alia-bhatt-film-entertainment-news-2528424/",
   image:
-   "https://st1.bollywoodlife.com/wp-content/uploads/2023/07/kanagankaran-3.png?impolicy=Medium_Widthonly&w=1280&h=900",
+   "https://st1.bollywoodlife.com/wp-content/uploads/2023/07/Anurag-Kashyap-Rocky-Aur-Rani-Kii-Prem-Kahaani.png?impolicy=Medium_Widthonly&w=1280&h=900",
   heading:
    "Anurag Kashyap raves about Karan Johar new movie Rocky Aur Rani Kii Prem Kahaani; shares highlight of Ranveer Singh, Alia Bhatt film",
   subheading:
@@ -145,6 +145,7 @@ const Data = [
   ref: "https://www.bollywoodlife.com/news-gossip/sonu-nigam-bhushan-kumar-hug-it-out-at-the-singers-birthday-bash-video-viral-entertainment-news-2528394/",
   image:
    "https://st1.bollywoodlife.com/wp-content/uploads/2023/07/Sonu-Nigam-Bhushan-Kumar.png?impolicy=Medium_Widthonly&w=1280&h=900",
+  heading: "Sonu Nigam, Bhushan Kumar hug it out at the singer's birthday bash",
   subheading:
    "Sonu Nigam and Bhushan Kumar had a nasty spat a couple of months ago. But the water is under the bridge now. The T-Series head attended Sonu's birthday bash as well.",
   content:
@@ -156,7 +157,7 @@ const Data = [
   genre: "Bollywood",
   ref: "https://www.bollywoodlife.com/news-gossip/double-ismart-sanjay-dutt-is-menacing-in-first-look-poster-fans-call-him-pan-indian-villain-entertainment-news-stst-2527798/",
   image:
-   "https://st1.bollywoodlife.com/wp-content/uploads/2023/07/Sonu-Nigam-Bhushan-Kumar.png?impolicy=Medium_Widthonly&w=1280&h=900",
+   "https://st1.bollywoodlife.com/wp-content/uploads/2023/07/Untitled-design-18-1.png?impolicy=Medium_Widthonly&w=1280&h=900",
   heading:
    "Double iSmart: Sanjay Dutt is menacing in first-look poster, fans call him ‘pan Indian villain’",
   subheading:
@@ -198,7 +199,7 @@ const Data = [
   genre: "Bollywood",
   ref: "https://www.bollywoodlife.com/news-gossip/gadar-2-gaurav-chopra-on-the-sequel-of-an-iconic-film-you-will-not-feel-jabardasti-banaya-hai-exclusive-entertainment-news-2527182/",
   image:
-   "https://st1.bollywoodlife.com/wp-content/uploads/2023/07/Untitled-design-16-3.png?impolicy=Medium_Widthonly&w=1280&h=900",
+   "https://st1.bollywoodlife.com/wp-content/uploads/2023/07/Gaurav-Chopra-1.jpg?impolicy=Medium_Widthonly&w=1280&h=900",
   heading:
    "Gadar 2: Gaurav Chopra on the sequel of an iconic film; 'You will not feel jabardasti banaya hai'",
   subheading:
@@ -212,7 +213,7 @@ const Data = [
   genre: "Bollywood",
   ref: "https://www.bollywoodlife.com/news-gossip/huma-qureshi-opens-up-on-being-body-shamed-dealing-with-negative-comments-entertainment-news-stst-2526273/",
   image:
-   "https://st1.bollywoodlife.com/wp-content/uploads/2023/07/Untitled-design-16-3.png?impolicy=Medium_Widthonly&w=1280&h=900",
+   "https://st1.bollywoodlife.com/wp-content/uploads/2023/07/Untitled-design-8-7.png?impolicy=Medium_Widthonly&w=1280&h=900",
   heading:
    "Huma Qureshi opens up on being body shamed, dealing with negative comments",
   subheading:
@@ -588,7 +589,7 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/selena-gomez-goes-on-yet-another-alleged-date-with-zayn-malik-in-los-angeles-netizens-react-why-does-sel-have-the-same-taste-as-both-of-the-hadid-sisters/",
   image:
-   "https://www.koimoi.com/hollywood-news/selena-gomez-goes-on-yet-another-alleged-date-with-zayn-malik-in-los-angeles-netizens-react-why-does-sel-have-the-same-taste-as-both-of-the-hadid-sisters/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/selena-gomez-goes-on-yet-another-alleged-date-with-zayn-malik-in-los-angeles-netizens-react-deets-inside-001.jpg",
   heading:
    "Selena Gomez Goes On Yet Another Alleged Date With Zayn Malik In Los Angeles? Netizens React “Why Does Sel Have The Same Taste As Both Of The Hadid Sisters…”",
   subheading:
@@ -602,7 +603,7 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/dc-gets-slammed-once-again-for-retaining-gal-gadots-wonder-woman-but-axing-henry-cavills-superman-one-says-it-should-be-a-felony/",
   image:
-   "https://www.koimoi.com/hollywood-news/dc-gets-slammed-once-again-for-retaining-gal-gadots-wonder-woman-but-axing-henry-cavills-superman-one-says-it-should-be-a-felony/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/dc-gets-slammed-once-again-for-retaining-gal-gadots-wonder-woman-but-axing-henry-cavills-superman-001.jpg",
   heading:
    "DC Gets Slammed Once Again For Retaining Gal Gadot’s Wonder Woman But Axing Henry Cavill’s Superman, One Says “It Should Be A Felony”",
   subheading:
@@ -616,7 +617,7 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/when-al-pacino-hinted-at-bad-blood-between-him-christopher-nolan-revealing-why-oppenheimer-director-possibly-didnt-offer-him-any-film-post-2002s-insomnia/",
   image:
-   "https://www.koimoi.com/hollywood-news/when-al-pacino-hinted-at-bad-blood-between-him-christopher-nolan-revealing-why-oppenheimer-director-possibly-didnt-offer-him-any-film-post-2002s-insomnia/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/when-al-pacino-hinted-at-bad-blood-between-him-christopher-nolan-revealing-why-oppenheimer-director-possibly-didnt-offer-him-any-film-post-2002s-insomnia.jpg",
   heading:
    "When Al Pacino Hinted At Bad Blood Between Him & Christopher Nolan, Revealing Why Oppenheimer Director Possibly Didn’t Offer Him Any Film Post 2002’s Insomnia",
   subheading:
@@ -630,7 +631,7 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/zack-snyders-justice-league-sequel-had-plans-of-making-this-villain-a-big-baddy-of-the-dc-universe/",
   image:
-   "https://www.koimoi.com/hollywood-news/zack-snyders-justice-league-sequel-had-plans-of-making-this-villain-a-big-baddy-of-the-dc-universe/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/zack-snyders-justice-league-sequel-had-plans-of-making-this-villain-a-big-baddy-of-the-dc-universe.jpg",
   heading:
    "Zack Snyder’s Justice League Sequel Had Plans Of Making This Villain A “Big Baddy Of The DC Universe”",
   subheading:
@@ -644,7 +645,7 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/did-dwayne-johnson-blame-james-gunn-peter-safran-taking-dcs-control-in-hands-for-the-mega-failure-of-his-black-adam-by-saying-it-got-caught-in-a-vortex-of-new-leadership/",
   image:
-   "https://www.koimoi.com/hollywood-news/did-dwayne-johnson-blame-james-gunn-peter-safran-taking-dcs-control-in-hands-for-the-mega-failure-of-his-black-adam-by-saying-it-got-caught-in-a-vortex-of-new-leadership/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/did-dwayne-johnson-blame-james-gunn-peter-safran-taking-dcs-control-in-hands-for-the-mega-failure-of-his-black-adam-by-saying-it-got-caught-in-a-vortex-of-new-leadership.jpg",
   heading:
    "Did Dwayne Johnson Blame James Gunn & Peter Safran Taking DC’s Control In Hands For ‘Black Adam’ Franchise Getting Scrapped By Saying “It Got Caught In A Vortex Of New Leadership”?",
   subheading:
@@ -658,7 +659,7 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/batman-ben-affleck-once-revealed-the-real-reason-he-hung-up-his-cape-fearing-he-would-drink-himself-to-death/",
   image:
-   "https://www.koimoi.com/hollywood-news/batman-ben-affleck-once-revealed-the-real-reason-he-hung-up-his-cape-fearing-he-would-drink-himself-to-death/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/did-you-know-ben-affleck-put-his-batman-cape-away-fearing-he-would-drink-himself-to-death-001.jpg",
   heading:
    "‘Batman’ Ben Affleck Once Revealed The Real Reason He Hung Up His Cape, Fearing “He Would Drink Himself To Death”",
   subheading:
@@ -700,7 +701,7 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/john-cena-recalls-sleeping-in-a-car-eating-a-pizza-every-day-for-free-from-a-local-store/",
   image:
-   "https://www.koimoi.com/hollywood-news/john-cena-recalls-sleeping-in-a-car-eating-a-pizza-every-day-for-free-from-a-local-store/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/john-cena-recalls-sleeping-in-a-car-eating-a-pizza-every-day-for-free-from-a-local-store.jpg",
   heading:
    "John Cena Recalls Sleeping In A Car & Eating A Pizza Everyday For Free From A Local Store: “I Didn’t Have The Money To Pay…”",
   subheading:
@@ -714,7 +715,7 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/guardians-of-the-galaxy-vol-3-receives-highest-ever-rating-on-disney-hotstar-leaves-behind-secret-invasion-moon-knight-many-others-to-garner-the-top-spot/",
   image:
-   "https://www.koimoi.com/hollywood-news/guardians-of-the-galaxy-vol-3-receives-highest-ever-rating-on-disney-hotstar-leaves-behind-secret-invasion-moon-knight-many-others-to-garner-the-top-spot/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/guardians-of-the-galaxy-vol-3-receives-highest-ever-rating-on-disney-hotstar-leaves-behind-secret-invasion-moon-knight-many-others-to-garner-the-top-spot.jpg",
   heading:
    "Guardians Of The Galaxy Vol 3 Receives Highest-Ever Rating On Disney + Hotstar, Leaves Behind Secret Invasion, Moon Knight & Many Others To Garner The Top Spot!",
   subheading:
@@ -728,7 +729,7 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/cardi-bs-mic-thrown-at-fan-during-las-vegas-concert-auctions-for-whopping-99000/",
   image:
-   "https://www.koimoi.com/hollywood-news/cardi-bs-mic-thrown-at-fan-during-las-vegas-concert-auctions-for-whopping-99000/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/microphone-thrown-by-cardi-b-gets-nearly-100k-bid-at-auction-01.jpg",
   heading:
    "Cardi B’s Mic, Thrown At Fan During Las Vegas Concert, Auctions For Whopping $99,000",
   subheading:
@@ -742,7 +743,7 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/george-clooney-break-silence-on-donating-1-million-to-sag-aftra-hardship-fund-were-determined-to-meet-this-moment/",
   image:
-   "https://www.koimoi.com/hollywood-news/george-clooney-break-silence-on-donating-1-million-to-sag-aftra-hardship-fund-were-determined-to-meet-this-moment/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/its-time-for-our-generation-to-give-something-back-george-clooney-among-stars-donating-1m-to-sag-aftra-hardship-fund-001.jpg",
   heading:
    "George Clooney Breaks Silence On Donating $1 Million To SAG-AFTRA Hardship Fund, “…We’re Determined To Meet This Moment”",
   subheading:
@@ -756,9 +757,9 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/tom-cruise-to-get-back-with-sofia-vergara-after-her-divorce-it-has-always-eaten-him-that-he-dumped-her-chose-katie-reports/",
   image:
-   "https://www.koimoi.com/hollywood-news/tom-cruise-to-get-back-with-sofia-vergara-after-her-divorce-it-has-always-eaten-him-that-he-dumped-her-chose-katie-reports/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/tom-cruise-wants-to-reignite-romance-with-sofia-vergara-following-her-split-from-husband-joe-manganiello-read-on-001.jpg",
   heading:
-   "om Cruise To Get Back With Sofia Vergara After Her Divorce? “It Has Always Eaten Him That He Dumped Her & Chose Katie”",
+   "Tom Cruise To Get Back With Sofia Vergara After Her Divorce? “It Has Always Eaten Him That He Dumped Her & Chose Katie”",
   subheading:
    "Now that Sofia Vergara has called splits from her husband, Joe Manganiello, Tom Cruise wants to reignite romance with her. Read on",
   content:
@@ -770,7 +771,7 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/when-brad-pitt-confessed-he-loved-being-married-to-ex-wife-jennifer-aniston-i-can-fart-eat-ice-cream-in-bed/",
   image:
-   "https://www.koimoi.com/hollywood-news/when-brad-pitt-confessed-he-loved-being-married-to-ex-wife-jennifer-aniston-i-can-fart-eat-ice-cream-in-bed/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/when-brad-pitt-confessed-he-loved-being-married-to-ex-wife-jennifer-aniston-deets-inside-001.jpg",
   heading:
    "When Brad Pitt Confessed He Loved Being Married To Ex-Wife Jennifer Aniston: “I Can Fart & Eat Ice Cream In Bed…”",
   subheading:
@@ -784,7 +785,7 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/og-avengers-iron-man-captain-america-co-personify-each-of-the-6-infinity-stones-this-crazy-fan-theory-will-not-only-blow-you-away-but-will-make-you-emotional-too-watch/",
   image:
-   "https://www.koimoi.com/hollywood-news/og-avengers-iron-man-captain-america-co-personify-each-of-the-6-infinity-stones-this-crazy-fan-theory-will-not-only-blow-you-away-but-will-make-you-emotional-too-watch/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/iron-man-captain-america-thor-the-other-og-avengers-represent-each-of-the-6-infinity-stones-this-crazy-theory-will-blow-your-mind-leave-you-teary-too-001.jpg",
   heading:
    "OG Avengers Iron Man, Captain America & Co Personify Each Of The 6 Infinity Stones? This Crazy Fan Theory Will Not Only Blow You Away But Will Make You Emotional Too! Watch",
   subheading:
@@ -798,7 +799,7 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/emily-blunt-took-a-break-from-acting-to-focus-on-marital-issues-with-john-krasinski-netizens-ask-ariana-grande-pete-davidson-to-stay-away-from-them/",
   image:
-   "https://www.koimoi.com/hollywood-news/emily-blunt-took-a-break-from-acting-to-focus-on-marital-issues-with-john-krasinski-netizens-ask-ariana-grande-pete-davidson-to-stay-away-from-them/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/07/emily-blunt-took-a-break-from-acting-to-focus-on-marital-issues-with-john-krasinski-netizens-ask-ariana-grande-pete-davidson-to-stay.jpg",
   heading:
    "Emily Blunt Took A Break From Acting To Focus On Marital Issues With John Krasinski? Netizens Ask Ariana Grande & Pete Davidson To Stay Away From Them",
   subheading:
@@ -812,7 +813,7 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/superman-henry-cavills-final-appearance-from-the-flash-goes-viral-is-being-labelled-the-most-disappointing-as-fans-brutally-slam-the-studio-wb-has-fcked-him-mor/",
   image:
-   "https://www.koimoi.com/hollywood-news/superman-henry-cavills-final-appearance-from-the-flash-goes-viral-is-being-labelled-the-most-disappointing-as-fans-brutally-slam-the-studio-wb-has-fcked-him-mor/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/07/henry-cavills-last-appearance-from-the-flash-as-superman-is-getting-disappointing-reactions-01.jpg",
   heading:
    "‘Superman’ Henry Cavill’s Final Appearance From The Flash Goes Viral & Is Being Labelled The Most Disappointing As Fans Brutally Slam",
   subheading:
@@ -826,7 +827,7 @@ const Data = [
   genre: "Hollywood",
   ref: "https://www.koimoi.com/hollywood-news/hugh-jackman-won-wolverine-losing-iconic-roles-like-jack-sparrow-james-bond-8-more/",
   image:
-   "https://www.koimoi.com/hollywood-news/hugh-jackman-won-wolverine-losing-iconic-roles-like-jack-sparrow-james-bond-8-more/",
+   "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/07/hugh-jackman-won-wolverine-losing-iconic-roles-like-jack-sparrow-james-bond-8-more.jpg",
   heading:
    "Hugh Jackman Won Wolverine Losing Iconic Roles Like Jack Sparrow, James Bond & 8 More But We Won’t Complaint Because Logan Is Love!",
   subheading:
@@ -840,7 +841,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://www.news18.com/lifestyle/health-and-fitness-importance-of-physical-therapy-or-physio-therapy-pre-and-post-joint-replacement-8437135.html",
   image:
-   "https://www.news18.com/lifestyle/health-and-fitness-importance-of-physical-therapy-or-physio-therapy-pre-and-post-joint-replacement-8437135.html",
+   "https://images.news18.com/ibnlive/uploads/2023/07/image-35-16904508523x2.jpg?impolicy=website&width=510&height=356",
   heading:
    "Importance of Physical Therapy or Physio Therapy Pre and Post Joint Replacement",
   subheading:
@@ -854,7 +855,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://www.news18.com/lifestyle/the-oppenheimer-diet-cillian-murphy-survived-on-one-almond-a-day-8415883.html",
   image:
-   "https://www.news18.com/lifestyle/the-oppenheimer-diet-cillian-murphy-survived-on-one-almond-a-day-8415883.html",
+   "https://images.news18.com/ibnlive/uploads/2023/07/oppenheimer-christopher-nolan-16902761703x2.jpg?impolicy=website&width=510&height=356",
   heading: "The Oppenheimer Diet: Cillian Murphy Survived on One Almond a Day",
   subheading:
    "Oppenheimer's persona and appearance were of utmost importance to him, so he went to great lengths to achieve authenticity.",
@@ -867,7 +868,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://www.news18.com/lifestyle/5-food-items-you-should-avoid-if-you-are-diabetic-here-is-why-8446201.html",
   image:
-   "https://www.news18.com/lifestyle/5-food-items-you-should-avoid-if-you-are-diabetic-here-is-why-8446201.html",
+   "https://images.news18.com/ibnlive/uploads/2023/07/untitled-design-2023-07-07t111047.575-16887084523x2.jpg?impolicy=website&width=510&height=356",
   heading: "5 Food Items You Should Avoid If You Are Diabetic",
   subheading:
    "For diabetics and prediabetics, it is important to be very mindful about the type of carbs and their portion sizes to be included in each meal",
@@ -880,7 +881,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://www.news18.com/lifestyle/health-and-fitness-debina-bonnerjee-slams-trolls-for-fat-shaming-her-post-pregnancy-5-tips-to-combat-fatphobia-8327785.html",
   image:
-   "https://www.news18.com/lifestyle/health-and-fitness-debina-bonnerjee-slams-trolls-for-fat-shaming-her-post-pregnancy-5-tips-to-combat-fatphobia-8327785.html",
+   "https://images.news18.com/ibnlive/uploads/2023/07/untitled-design-2023-07-07t111047.575-16887084523x2.jpg?impolicy=website&width=510&height=356",
   heading:
    "Debina Bonnerjee Slams Trolls for Fat-Shaming Her Post-Pregnancy; 5 Tips to Combat Fatphobia",
   subheading:
@@ -894,7 +895,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://zeenews.india.com/people/shilpa-shetty-aces-stand-up-challenge-fans-laud-actress-for-her-fitness-stst-2630247.html",
   image:
-   "https://zeenews.india.com/people/shilpa-shetty-aces-stand-up-challenge-fans-laud-actress-for-her-fitness-stst-2630247.html",
+   "https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2023/07/03/1232918-zee-14.png?im=Resize=(700,400)",
   heading:
    "Shilpa Shetty Aces ‘Stand-up Challenge’ — Fans Laud Her Fitness Levels",
   subheading:
@@ -908,7 +909,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://zeenews.india.com/health/joesthetics-death-reason-expert-explains-causes-signs-and-preventive-measures-of-aneurysms-2630189",
   image:
-   "https://zeenews.india.com/health/joesthetics-death-reason-expert-explains-causes-signs-and-preventive-measures-of-aneurysms-2630189",
+   "https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2023/07/03/1232836-jo-lindner-death.jpg?im=Resize=(700,400)",
   heading:
    "Joesthetics Death: Expert Explains Causes, Signs, And Preventive Measures Of Aneurysms",
   subheading:
@@ -935,7 +936,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://zeenews.india.com/health/exercise-to-lower-blood-pressure-wall-squats-planks-could-help-says-study-2640948",
   image:
-   "https://zeenews.india.com/health/exercise-to-lower-blood-pressure-wall-squats-planks-could-help-says-study-2640948",
+   "https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2023/07/26/1249906-planks-exerise.png?im=Resize=(700,400)",
   heading:
    "Exercise To Lower Blood Pressure? Wall Squats, Planks Could Help, Says Study",
   subheading:
@@ -949,7 +950,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://zeenews.india.com/health/high-fitness-levels-may-reduce-death-risk-from-cardiovascular-disease-in-men-study-2601338",
   image:
-   "https://zeenews.india.com/health/high-fitness-levels-may-reduce-death-risk-from-cardiovascular-disease-in-men-study-2601338",
+   "https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2023/05/01/1192744-men-exercise.jpg?im=Resize=(700,400)",
   heading:
    "High Fitness Levels May Reduce Death Risk From Cardiovascular Disease In Men: Study",
   subheading:
@@ -963,7 +964,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://zeenews.india.com/health/benefits-of-exercise-working-out-while-fasting-can-help-with-mental-focus-and-clarity-heres-why-2641905",
   image:
-   "https://zeenews.india.com/health/benefits-of-exercise-working-out-while-fasting-can-help-with-mental-focus-and-clarity-heres-why-2641905",
+   "https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2023/07/29/1251587-hiit-workout.png?im=Resize=(700,400)",
   heading:
    "Benefits Of Exercise: Working Out While Fasting Can Help With Mental Focus And Clarity, Here's Why",
   subheading:
@@ -977,7 +978,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://indianexpress.com/article/lifestyle/fitness/dr-kiran-bedi-fitness-mantra-74-never-had-samosa-poori-kachori-pakode-walking-exercise-journaling-8872559/",
   image:
-   "https://indianexpress.com/article/lifestyle/fitness/dr-kiran-bedi-fitness-mantra-74-never-had-samosa-poori-kachori-pakode-walking-exercise-journaling-8872559/",
+   "https://images.indianexpress.com/2023/08/kiran-bedi_amit-mehra.jpg?w=640",
   heading:
    "Kiran Bedi reveals fitness mantra at 74: ‘I have never had samosa, poori, kachori, pakode…’",
   subheading:
@@ -991,7 +992,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://indianexpress.com/article/lifestyle/fitness/deepika-padukone-washboard-abs-diet-activity-8870943/",
   image:
-   "https://indianexpress.com/article/lifestyle/fitness/deepika-padukone-washboard-abs-diet-activity-8870943/",
+   "https://images.indianexpress.com/2023/08/deepika-padukone_200_instaaa.jpg?w=640",
   heading:
    "Deepika Padukone stuns as she sports washboard abs: ‘Not so long ago…’",
   subheading:
@@ -1005,7 +1006,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://indianexpress.com/article/lifestyle/fitness/samantha-ruth-prabhu-takes-an-ice-bath-at-4-degrees-for-six-minutes-8862734/",
   image:
-   "https://indianexpress.com/article/lifestyle/fitness/samantha-ruth-prabhu-takes-an-ice-bath-at-4-degrees-for-six-minutes-8862734/",
+   "https://images.indianexpress.com/2023/07/samantha-ice-bath_200_2-pane.jpg?w=640",
   heading:
    "Samantha Ruth Prabhu takes ice bath at 4 degrees for six minutes; how does it help?",
   subheading:
@@ -1019,7 +1020,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://indianexpress.com/article/lifestyle/fitness/ranveer-singh-trainer-lloyd-stevens-look-jacked-bodybuilding-throwback-8848019/",
   image:
-   "https://indianexpress.com/article/lifestyle/fitness/ranveer-singh-trainer-lloyd-stevens-look-jacked-bodybuilding-throwback-8848019/",
+   "https://images.indianexpress.com/2023/07/ranveer-singh_1200_2016.jpg?w=640",
   heading:
    "With a throwback picture, trainer reveals how Ranveer Singh managed to look ‘jacked’",
   subheading:
@@ -1033,7 +1034,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://indianexpress.com/article/lifestyle/fitness/gautami-kapoor-dances-stress-free-can-dancing-help-8667172/",
   image:
-   "https://indianexpress.com/article/lifestyle/fitness/gautami-kapoor-dances-stress-free-can-dancing-help-8667172/",
+   "https://images.indianexpress.com/2023/06/gautami-kapoor.jpg?w=640",
   heading: "Gautami Kapoor dances to go ‘stress-free’; can it really help?",
   subheading:
    "If the infectious smile on her face in all her videos of dancing is to be believed, Kapoor does really seem free of stress",
@@ -1046,7 +1047,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://www.hellomagazine.com/healthandbeauty/health-and-fitness/20230116161859/best-ice-baths-plunge-pools/",
   image:
-   "https://www.hellomagazine.com/healthandbeauty/health-and-fitness/20230116161859/best-ice-baths-plunge-pools/",
+   "https://images.hellomagazine.com/horizon/landscape/3240469e0a64-celebrities-in-ice-baths-t.jpg?tx=c_fill,w_1280",
   heading:
    "Best ice baths 2023: How Joe Wicks, Nicole Scherzinger & more celebrities swear by at-home plunge pools",
   subheading:
@@ -1060,7 +1061,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://www.news18.com/lifestyle/ways-to-protect-your-children-from-dengue-fever-8415637.html",
   image:
-   "https://www.news18.com/lifestyle/ways-to-protect-your-children-from-dengue-fever-8415637.html",
+   "https://images.news18.com/ibnlive/uploads/2023/04/wp-image-1028-16824265903x2.jpg?impolicy=website&width=510&height=356",
   heading: "Ways To Protect Your Children From Dengue Fever",
   subheading:
    "Dengue occurs due to the bite of an Aedes mosquito and shows symptoms like headache, muscle pain, joint pains, nausea etc.",
@@ -1073,7 +1074,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://www.news18.com/lifestyle/long-term-smokers-displayed-symptoms-not-meeting-smoking-related-disease-criteria-shows-study-8512201.html",
   image:
-   "https://www.news18.com/lifestyle/long-term-smokers-displayed-symptoms-not-meeting-smoking-related-disease-criteria-shows-study-8512201.html",
+   "https://images.news18.com/ibnlive/uploads/2023/08/untitled-design-28-1-16912379733x2.png?impolicy=website&width=510&height=356",
   heading:
    "Long-term Smokers Displayed Symptoms Not Meeting Smoking-related Disease Criteria Shows Study",
   subheading:
@@ -1087,7 +1088,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://www.news18.com/lifestyle/study-shows-short-bursts-of-intense-exercise-linked-to-reduced-risk-of-cancer-8462797.html",
   image:
-   "https://www.news18.com/lifestyle/study-shows-short-bursts-of-intense-exercise-linked-to-reduced-risk-of-cancer-8462797.html",
+   "https://images.news18.com/ibnlive/uploads/2023/07/10-14-1-16907287353x2.png?impolicy=website&width=510&height=356",
   heading:
    "Study Shows Short Bursts Of Intense Exercise Linked To Reduced Risk Of Cancer",
   subheading:
@@ -1101,7 +1102,7 @@ const Data = [
   genre: "Fitness",
   ref: "https://www.news18.com/lifestyle/fitness-icon-milind-soman-sets-new-standards-with-his-kettlebell-workout-watch-now-8433187.html",
   image:
-   "https://www.news18.com/lifestyle/fitness-icon-milind-soman-sets-new-standards-with-his-kettlebell-workout-watch-now-8433187.html",
+   "https://images.news18.com/ibnlive/uploads/2023/06/collage-maker-07-jun-2023-08-10-pm-9655-16861488613x2.jpg?impolicy=website&width=510&height=356",
   heading:
    "Fitness Icon Milind Soman Sets New Standards With His Kettlebell Workout, Watch Now",
   subheading:
@@ -1115,7 +1116,7 @@ const Data = [
   genre: "Food",
   ref: "https://indianexpress.com/article/lifestyle/food-wine/monsoon-recipe-batata-bhajiya-snacks-8846280/",
   image:
-   "https://indianexpress.com/article/lifestyle/food-wine/monsoon-recipe-batata-bhajiya-snacks-8846280/",
+   "https://images.indianexpress.com/2023/07/batata-bhajiya.jpg?w=640",
   heading:
    "Monsoon munchies: Try this simple recipe to satiate your cravings this season",
   subheading:
@@ -1142,7 +1143,7 @@ const Data = [
   genre: "Food",
   ref: "https://indianexpress.com/article/lifestyle/food-wine/australian-chef-gary-mehigan-madurai-bun-parotta-8875851/",
   image:
-   "https://indianexpress.com/article/lifestyle/food-wine/australian-chef-gary-mehigan-madurai-bun-parotta-8875851/",
+   "https://images.indianexpress.com/2023/08/gary-mehigan-1200.jpg?w=640",
   heading:
    "Australian Chef Gary Mehigan shares his love for Madurai’s bun parotta",
   subheading:
@@ -1156,7 +1157,7 @@ const Data = [
   genre: "Food",
   ref: "https://indianexpress.com/article/lifestyle/food-wine/cleaning-greasy-utensils-properly-8655729/",
   image:
-   "https://indianexpress.com/article/lifestyle/food-wine/cleaning-greasy-utensils-properly-8655729/",
+   "https://images.indianexpress.com/2023/06/COOKING-FOR-BEGINNERS-1.jpg?w=640",
   heading: "How to wash your greasy utensils properly?",
   subheading:
    "Getting the grease off of utensils is like raging a war against them with your dish scrub as your chosen weapon",
@@ -1169,7 +1170,7 @@ const Data = [
   genre: "Food",
   ref: "https://indianexpress.com/article/lifestyle/food-wine/subway-free-sandwiches-lifetime-unique-condition-name-change-8867431/",
   image:
-   "https://indianexpress.com/article/lifestyle/food-wine/subway-free-sandwiches-lifetime-unique-condition-name-change-8867431/",
+   "https://images.indianexpress.com/2023/07/subway-1200.jpg?w=640",
   heading:
    "Subway will give you free sandwiches for life, but on this unique condition",
   subheading:
@@ -1183,7 +1184,7 @@ const Data = [
   genre: "Food",
   ref: "https://indianexpress.com/article/lifestyle/food-wine/r-madhavan-favourite-food-kolhapuri-misal-kat-recipe-8859131/",
   image:
-   "https://indianexpress.com/article/lifestyle/food-wine/r-madhavan-favourite-food-kolhapuri-misal-kat-recipe-8859131/",
+   "https://images.indianexpress.com/2023/07/madhavan_200_insta.jpg?w=640",
   heading:
    "R Madhavan shares his favourite food: ‘I sneak into Kolhapur only to have that’",
   subheading:
@@ -1197,7 +1198,7 @@ const Data = [
   genre: "Food",
   ref: "https://indianexpress.com/article/lifestyle/food-wine/sudha-murty-love-passion-food-choices-pure-vegetarian-not-even-egg-garlic-kunal-vijjayakar-8856934/",
   image:
-   "https://indianexpress.com/article/lifestyle/food-wine/sudha-murty-love-passion-food-choices-pure-vegetarian-not-even-egg-garlic-kunal-vijjayakar-8856934/",
+   "https://images.indianexpress.com/2023/07/sudha-murty_1200_pavan-khengre.jpg?w=640",
   heading:
    "Sudha Murty opens up about her food choices at home, during travels: ‘I am a pure vegetarian. Not even egg, garlic’",
   subheading:
@@ -1224,7 +1225,7 @@ const Data = [
   genre: "Food",
   ref: "https://indianexpress.com/article/lifestyle/food-wine/navara-rice-ayurveda-benefits-8767079/",
   image:
-   "https://indianexpress.com/article/lifestyle/food-wine/navara-rice-ayurveda-benefits-8767079/",
+   "https://images.indianexpress.com/2023/07/rice.jpg?w=640",
   heading:
    "This rice variety is considered ‘one of the best grains in Ayurveda’; here’s why",
   subheading:
@@ -1238,7 +1239,7 @@ const Data = [
   genre: "Food",
   ref: "https://indianexpress.com/article/lifestyle/food-wine/add-green-beans-to-your-diet-to-make-it-wholesome-recipe-inside-8830726/",
   image:
-   "https://indianexpress.com/article/lifestyle/food-wine/add-green-beans-to-your-diet-to-make-it-wholesome-recipe-inside-8830726/",
+   "https://images.indianexpress.com/2023/07/beans_1200_freepik.jpg?w=640",
   heading: "Make your diet wholesome with nutritious green beans",
   subheading:
    "When stir-fried beans are consumed, they are low in calories and high in fibre, making them a filling and satisfying addition to meals, said Dr Nirupama Rao, Rejua Energy Centre, Mumbai",
@@ -1251,7 +1252,7 @@ const Data = [
   genre: "Food",
   ref: "https://indianexpress.com/article/lifestyle/food-wine/burger-king-brazil-barbie-inspired-burger-shake-8833186/",
   image:
-   "https://indianexpress.com/article/lifestyle/food-wine/burger-king-brazil-barbie-inspired-burger-shake-8833186/",
+   "https://images.indianexpress.com/2023/07/barbie-burger-shake.jpg?w=640",
   heading:
    "Burger King Brazil launches pink Barbie-inspired burger and shake to celebrate movie release",
   subheading:
@@ -1278,7 +1279,7 @@ const Data = [
   genre: "Food",
   ref: "https://indianexpress.com/article/lifestyle/food-wine/google-doodle-celebrates-indias-beloved-street-food-pani-puri-8832640/",
   image:
-   "https://indianexpress.com/article/lifestyle/food-wine/google-doodle-celebrates-indias-beloved-street-food-pani-puri-8832640/",
+   "https://images.indianexpress.com/2023/07/google-doodle-pani-puri.jpg?w=640",
   heading: "Google Doodle celebrates India’s beloved street food pani puri",
   subheading:
    '"The interactive game Doodle celebrates pani puri — a popular South Asian street food made of a crispy shell stuffed with potatoes, chickpeas, spices, or chilis and flavoured waters"',

@@ -1,11 +1,11 @@
 import React from 'react'
 import RouteComp from './Project_6/Component/RouteComp'
-import HeadNavbar from './Project_6/Component/HeadNavbar'
+// import HeadNavbar from './Project_6/Component/HeadNavbar'
 
 const App = () => {
   return (
     <>
-    <HeadNavbar/>
+    {/* <HeadNavbar/> */}
     <RouteComp/>
     </>
   )

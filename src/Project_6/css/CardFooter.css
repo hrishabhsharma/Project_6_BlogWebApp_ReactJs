@@ -1,0 +1,54 @@
+.Footer_Cards_Title{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 3vw 0;
+}
+.Footer_Cards{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafafa;
+    /* gap: 20px; */
+}
+.Footer_Card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.Footer_Card:hover {
+    cursor: pointer;
+    transition: all .2s ease;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    /* box-shadow: 0px 7px 22px -10px black; */
+}
+.Footer_Card > img{
+    border-radius: 20px;
+    height: 11rem;
+    object-fit: cover;
+    /* width: 100%; */
+}
+.Footer_Card_Heading{
+    color: #404040;
+    font-size: 1rem;
+    font-weight: 500;
+    overflow: hidden;
+    height: 18%;
+}
+.Footer_Card_Author_Details{
+    display: flex;
+    gap: 20px;
+}
+.Footer_Card_Author_Details > img{
+    width: 20%;
+}
+.Footer_Card_Author_Details span{
+    font-size: .6rem;
+    align-self: center;
+    color: #a2a2a2;
+}
+.Footer_Card_Author_Details p{
+    font-size: 1rem;
+    color: #000;
+}

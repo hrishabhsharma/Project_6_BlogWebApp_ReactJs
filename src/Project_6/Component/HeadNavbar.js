@@ -9,7 +9,7 @@ const HeadNavbar = () => {
       <div className='Logo'>
         <div className='left'>The</div>
         <div className='right'>Siren</div>
-        </div>
+      </div>
       <div className='Navbar'>
           <NavLink to='/'>Home</NavLink>
           <NavLink to='/bollywood'>Bollywood</NavLink>

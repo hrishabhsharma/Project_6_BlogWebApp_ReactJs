@@ -2,17 +2,19 @@ import React , {useContext} from 'react'
 import { DataStorage } from '../DataStorage';
 import Cards from './Cards';
 import '../css/Pages.css'
+import HeadNavbar from './HeadNavbar';
 
 const Pages = ({category}) => {
   const Api = useContext(DataStorage);
   return (
+    <>
+    <HeadNavbar/>
     <div className='Main-Body'>
       <div className='Left-Tile'>
         <div className='Tile-Head'>{category}</div>
         <div className="bottom-line"></div>
         <div className='All-Cards'>
-            {
-              Api
+            {Api && Api
               .filter((data)=>data.genre===category)
               .map((item,index)=>
                   <Cards
@@ -25,8 +27,7 @@ const Pages = ({category}) => {
                         subheading={item.subheading}
                         date={item.date}
                         genre={item.genre}
-                  />)
-            }
+            />)}
         </div>
       </div>
 
@@ -34,8 +35,7 @@ const Pages = ({category}) => {
         <div className='Tile-Head'>Top Post</div>
         <div className="bottom-line"></div>
         <div className='Top-Cards'>
-        {
-              Api
+            {Api && Api
               .filter((data)=>(data.genre===category) && (data.id%4===0))
               .map((item,index)=> 
                   <Cards
@@ -47,12 +47,12 @@ const Pages = ({category}) => {
                         heading={item.heading}
                         date={item.date}
                         genre={item.genre}
-                  />)
-            }
+                  />)}
         </div>
         {/* <div className='advertise'>Advertisement</div> */}
       </div>
     </div>
+    </>
 
   )
 }
