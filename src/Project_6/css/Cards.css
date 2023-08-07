@@ -1,0 +1,82 @@
+.All-Card , .Top-Card{
+    display: flex;
+    height: 10em;
+    border-top: 1px solid #f0f0f0;
+}
+.Top-Card{
+    height: 6.5em;
+    padding: 10px;
+}
+
+.All-Card-left-side img , .Top-Card-left-side img{
+    object-fit: cover;
+    height: 100%;
+    width: 16em;
+}
+.Top-Card-left-side img{
+    width: 8.4em;
+}
+
+.All-Card-right-side , .Top-Card-right-side{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+.Top-Card-right-side{
+    padding: 0px 10px;
+}
+
+.All-Card-Head , .Top-Card-Head{
+    height: 62px;
+    font-size: 1.3em;
+    color: #404040;
+    font-weight: 500;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    /* text-align: justify; */
+}
+.Top-Card-Head{
+    height: 45px;
+    font-size: 1rem;
+}
+
+.All-Card-Subhead{
+    font-size: .8rem;
+    color: #908D8D;
+    height: 50px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.All-Card-Foot , .Top-Card-Foot{
+    font-size: .7rem;
+    color: #908d8d;
+    letter-spacing: 0.85px;
+    margin-top: auto;
+}
+.Top-Card-Foot{
+    font-size: 0.6rem;
+}
+
+.All-Card-Foot span , .Top-Card-Foot span{
+    color: #404040;
+    font-weight: 500;
+}
+
+.All-Card:first-child , .Top-Card:first-child{
+    border-top: none;
+}
+.Top-Card:first-child{
+    flex-direction: column;
+    height: 17rem;
+}
+.Top-Card:first-child img{
+    width: 85%;
+}
+.Top-Card:first-child .Top-Card-right-side{
+    height: 100%;
+    padding: 10px 10px 0px 0px;
+}
+

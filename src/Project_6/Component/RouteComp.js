@@ -1,28 +1,21 @@
 import React from 'react'
 import { Routes , Route } from 'react-router-dom'
-import HomeComp from './HomeComp'
-import BollyComp from './BollyComp'
-import TechComp from './TechComp'
-import HollyComp from './HollyComp'
-import FitComp from './FitComp'
-import FoodComp from './FoodComp'
-import DataStorage from '../DataStorage'
-// import GenericComp from './GenericComp'
+import Home from './Home'
+import Pages from './Pages'
+import CardDetail from './CardDetail'
 
 const RouteComp = () => {
   return (
     <>
-    <DataStorage>
     <Routes>
-        <Route  path='/' element={<HomeComp/>}/>
-        <Route  path='/bollywood' element={<BollyComp/>}/>
-        <Route  path='/technology' element={<TechComp/>}/>
-        <Route  path='/hollywood' element={<HollyComp/>}/>
-        <Route  path='/fitness' element={<FitComp/>}/>
-        <Route  path='/food' element={<FoodComp/>}/>
-        {/* <Route  path='/bollywood/:id' element={<GenericComp/>}/> */}
+        <Route  path='/'           element={<Home/>}/>
+        <Route  path='/bollywood'  element={<Pages category={'Bollywood'}/>}/>
+        <Route  path='/technology' element={<Pages category={'Technology'}/>}/>
+        <Route  path='/hollywood'  element={<Pages category={'Hollywood'}/>}/>
+        <Route  path='/fitness'    element={<Pages category={'Fitness'}/>}/>
+        <Route  path='/food'       element={<Pages category={'Food'}/>}/>
+        <Route  path='/:comp/:id'  element={<CardDetail/>}/>
     </Routes>
-    </DataStorage>
     </>
   )
 }

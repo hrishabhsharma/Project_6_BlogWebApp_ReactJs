@@ -1,0 +1,29 @@
+.Main-Body{
+    display: flex;
+    justify-content: space-between;
+}
+.Left-Tile{
+    width: 50%;
+}
+.Right-Tile{
+    width: 30%;
+}
+.Tile-Head{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.bottom-line {
+    border: 1px solid #f08080;
+    margin: 10px 0px;
+    width: 70px;
+}
+.All-Cards , .Top-Cards{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+/* .All-Cards:first{
+    font-size: 200px;
+    border-top: none;
+} */

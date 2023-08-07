@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
-import { Store } from '../DataStorage'
+import { DataStorage } from '../DataStorage'
 
 const HomeComp = () => {
-  const Data = useContext(Store)
+  const Data = useContext(DataStorage)
   console.log(Data)
   return (
     <div id='Home'>
