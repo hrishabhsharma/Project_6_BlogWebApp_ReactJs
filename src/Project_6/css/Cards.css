@@ -1,32 +1,33 @@
-.All-Card , .Top-Card{
+.All_Card , .Top_Card{
     display: flex;
     height: 10em;
-    border-top: 1px solid #f0f0f0;
+    border-top: 3px solid #f0f0f0;
+    padding-top: 10px;
 }
-.Top-Card{
+.Top_Card{
     height: 6.5em;
     padding: 10px;
 }
 
-.All-Card-left-side img , .Top-Card-left-side img{
+.All_Card_left_side img , .Top_Card_left_side img{
     object-fit: cover;
     height: 100%;
     width: 16em;
 }
-.Top-Card-left-side img{
+.Top_Card_left_side img{
     width: 8.4em;
 }
 
-.All-Card-right-side , .Top-Card-right-side{
+.All_Card_right_side , .Top_Card_right_side{
     display: flex;
     flex-direction: column;
     padding: 0px 20px;
 }
-.Top-Card-right-side{
+.Top_Card_right_side{
     padding: 0px 10px;
 }
 
-.All-Card-Head , .Top-Card-Head{
+.All_Card_Head , .Top_Card_Head{
     height: 62px;
     font-size: 1.3em;
     color: #404040;
@@ -37,12 +38,12 @@
     display: -webkit-box;
     /* text-align: justify; */
 }
-.Top-Card-Head{
+.Top_Card_Head{
     height: 45px;
     font-size: 1rem;
 }
 
-.All-Card-Subhead{
+.All_Card_Subhead{
     font-size: .8rem;
     color: #908D8D;
     height: 50px;
@@ -50,33 +51,53 @@
     text-align: justify;
 }
 
-.All-Card-Foot , .Top-Card-Foot{
+.All_Card_Foot , .Top_Card_Foot{
     font-size: .7rem;
     color: #908d8d;
     letter-spacing: 0.85px;
     margin-top: auto;
 }
-.Top-Card-Foot{
+.Top_Card_Foot{
     font-size: 0.6rem;
 }
 
-.All-Card-Foot span , .Top-Card-Foot span{
+.All_Card_Foot span , .Top_Card_Foot span{
     color: #404040;
     font-weight: 500;
 }
+.Top_Card_Count{
+    font-size: 3.2em;
+    letter-spacing: 1.48px;
+    color: #908d8d;
+}
 
-.All-Card:first-child , .Top-Card:first-child{
+.All_Card:first-child , .Top_Card:first-child{
     border-top: none;
 }
-.Top-Card:first-child{
+.Top_Card:first-child{
     flex-direction: column;
     height: 17rem;
 }
-.Top-Card:first-child img{
+.Top_Card:first-child img{
     width: 85%;
 }
-.Top-Card:first-child .Top-Card-right-side{
+.Top_Card:first-child .Top_Card_right_side{
     height: 100%;
     padding: 10px 10px 0px 0px;
+}
+.Top_Card:first-child .Top_Card_Count{
+    margin-top: -2em;
+    align-self: flex-end;
+}
+.Top_Card:first-child .Top_Card_Head{
+    width: 90%;
+}
+
+.advertise{
+    margin-top: 10em;
+    width: 100%;
+    height: 50em;
+    text-align: center;
+    border: 2px solid black;
 }
 

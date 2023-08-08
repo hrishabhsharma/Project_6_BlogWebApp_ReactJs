@@ -1,43 +1,40 @@
-.Detail_Header{
-    background-color: #fff;
-    border-bottom: 2px solid #d9d9d9;
-    width: 100%;
-}
-.Header_2{
+.Card_Header{
+    margin: auto;
+    max-width: 90vw;
+    border-bottom: 2px solid rgb(207, 202, 202);
+    padding: 10px 0px;
+    margin-bottom: 2em;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10px 30px;
 }
-.Header_2 .Logo{
-    display: flex;
+.Card_Header .Logo .left{
+    font-size: 1em;
+
 }
-.Logo .left{
-    align-self: center;
-    font-size: .9rem;
-    font-weight: 500;
-    transform: rotate(-90deg);
+.Card_Header .Logo .right{
+    font-size: 2em;
 }
-.Logo .right{
-    color: #000;
-    font-size: 2rem;
-    font-weight: 700;
-}
-.Logo_GetStarted{
+.CardHeader_Logo_GetStarted{
     border: 1px solid #03a87c;
     color: #03a87c;
-    display: block!important;
     padding: 5px 10px;
 }
 
+.Card_Main_Body{
+    margin: auto;
+    max-width: 80vw;
+}
+
 .Floating_Section{
-    float: left;
-    clear: left;
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
     position: sticky;
+    float: left;
+    clear: left;
+    gap: 2.5rem;
     top: 50vh;
+    padding-right: 10px;
 }
 .Like_Box , .Share_Box{
     display: flex;
@@ -89,11 +86,6 @@
         left: 0;
         direction: rtl;
         background: #212529;
-        box-shadow:
-         -7px -7px 20px 0px rgba(35, 35, 35, 0.6),
-         -4px -4px 5px 0px rgba(59, 56, 56, 0.6),
-         7px 7px 20px 0px #0002,
-         4px 4px 5px 0px #0001;
         transition: all 0.3s ease;
     }
 }
@@ -101,22 +93,24 @@
 .Content{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     gap: 10px;
-    width: 50%;
-    margin: 10px auto;
+    width: 60%;
+    margin-top: 10px;
+    margin-right: auto;
+    /* margin: 10px auto; */
 }
 
 .Content_Title{
     font-size: 2rem;
     font-weight: 500;
+    text-align: justify;
 }
 
 .Author{
     display: flex;
     justify-content: space-between;
 }
-.Bottom{
+.Bottom_Author{
     border: solid #f0f0f0;
     border-width: 2px 0px;
     padding: 20px 0px;
@@ -128,7 +122,7 @@
 .Author_Details img{
     width: 30%;
 }
-.Bottom img{
+.Bottom_Author img{
     width: 17.25%;
 }
 .Author_Details span{
@@ -167,3 +161,5 @@
     background-color: #f2f2f2;
     padding: 6px 14px;
 }
+
+

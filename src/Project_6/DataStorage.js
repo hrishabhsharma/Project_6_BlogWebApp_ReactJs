@@ -38,7 +38,8 @@ const Data = [
   heading:
    "KGF 3: Yash puts a condition to be a part of Prashanth Neel directorial",
   subheading:
-   "Kannada actor Yash has earned global fandom through his performance in director Prashanth Neel’s KGF and KGF 2. After a dream, box office run in India, this year on July 14, both films were screened across theaters in Japan, which received the same amount of love as the Indian audience. To add cherry on top of the cake, the makers have confirmed that KGF 3 is already underway. Amidst all this, another interesting revelation surrounding Yash has come to the fore. Reportedly, Yash will be part of KGF's third segment only under one condition.",
+   "Film director Prashanth Neel's KGF and KGF 2, starring Yash in the lead was released in theaters across Japan on July 14 this year, receiving a warm welcome from fans.",
+   content: "Kannada actor Yash has earned global fandom through his performance in director Prashanth Neel’s KGF and KGF 2. After a dream, box office run in India, this year on July 14, both films were screened across theaters in Japan, which received the same amount of love as the Indian audience. To add cherry on top of the cake, the makers have confirmed that KGF 3 is already underway. Amidst all this, another interesting revelation surrounding Yash has come to the fore. Reportedly, Yash will be part of KGF's third segment only under one condition.  According to reports, Yash and Prashanth Neel are planning to release KGF and KGF 2 in other countries, after the two films received an overwhelming response from the audience in Japan. Only after rounding off the plan, the actor-director duo will commence shooting for KGF 3, the third segment of the KGF franchise. But that’s not all. Sources have revealed that Yash will reprise his role as Rocky Bhai in the sequel, only if the script appeals to him.",
   date: "July 31, 2023",
  },
  {

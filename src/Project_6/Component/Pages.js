@@ -1,11 +1,17 @@
-import React , {useContext} from 'react'
+import React , {useContext, useState} from 'react'
 import { DataStorage } from '../DataStorage';
 import Cards from './Cards';
 import '../css/Pages.css'
 import HeadNavbar from './HeadNavbar';
+import DownArrow from '../assets/arrow.svg'
+import RightArrow from '../assets/arrow-1.svg'
 
 const Pages = ({category}) => {
   const Api = useContext(DataStorage);
+  const [LoadMore , setLoadMore] = useState(false)
+  const ToggleLoadMore = ()=>{
+      setLoadMore(!LoadMore);
+  }
   return (
     <>
     <HeadNavbar/>
@@ -15,7 +21,7 @@ const Pages = ({category}) => {
         <div className="bottom-line"></div>
         <div className='All-Cards'>
             {Api && Api
-              .filter((data)=>data.genre===category)
+              .filter((data)=>(data.genre===category && data.id%3===0))
               .map((item,index)=>
                   <Cards
                         key={index}
@@ -28,6 +34,25 @@ const Pages = ({category}) => {
                         date={item.date}
                         genre={item.genre}
             />)}
+            {Api && Api
+              .filter((data)=>(data.genre===category && data.id%3!==0))
+              .map((item,index)=>
+                  <Cards
+                        key={index}
+                        type='main'
+                        wholecard={item}
+                        id={item.id}
+                        image={item.image}
+                        heading={item.heading}
+                        subheading={item.subheading}
+                        date={item.date}
+                        genre={item.genre}
+                        Toggle={LoadMore ? '' : 'Hide'}
+            />)}
+        </div>
+        <div className='Toggle_Button' onClick={ToggleLoadMore}>
+          <img src={LoadMore ? RightArrow : DownArrow} alt='icon not found'/>
+          <span>{LoadMore ? 'LOAD LESS' : 'LOAD MORE'}</span>
         </div>
       </div>
 
@@ -40,6 +65,7 @@ const Pages = ({category}) => {
               .map((item,index)=> 
                   <Cards
                         key={index}
+                        count={index+1}
                         type='top'
                         wholecard={item}
                         id={item.id}

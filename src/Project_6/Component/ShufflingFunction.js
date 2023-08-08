@@ -30,3 +30,12 @@ export function ShuffleCardsFooter (Except_Card){
        return Random(81,101,Except_Card)
     }
 }
+
+export function Random_Number(count , min , max) {
+    const RandomArray = [];
+    for (let i = 0; i < count; i++) {
+      const RandomNumber = Math.floor(Math.random() * (max - min)) + min;
+      RandomArray.push(RandomNumber);
+    }
+    return RandomArray;
+}

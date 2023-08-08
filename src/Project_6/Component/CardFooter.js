@@ -12,7 +12,7 @@ const CardFooter = ({Except_Card}) => {
     console.log(RandomCards)
 
     return (
-        <div>
+        <div className='Card_Footer'>
             <div className='Footer_Cards_Title'>More From the Siren</div>
             <div  className='Footer_Cards'>
             {   
@@ -21,7 +21,7 @@ const CardFooter = ({Except_Card}) => {
                 return(
                         <Link   key={index} 
                                 to={"/"+item.genre+"/"+item.id}
-                                state={{wholecard:item}} 
+                                state={{SingleCard:item}} 
                                 className='Footer_Card' 
                                 onClick={ScrollToTop}>
                             <img src={item.image} alt='not found'/>
