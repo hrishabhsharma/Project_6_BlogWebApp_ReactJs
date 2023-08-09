@@ -146,6 +146,7 @@
     margin: 10px 0px;
     object-fit: cover;
     width: 100%;
+    border-radius: 5px;
 }
 
 .Content_Desc .para{

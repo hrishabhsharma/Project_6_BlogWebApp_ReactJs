@@ -131,10 +131,10 @@ const HomeComp = () => {
             />)}
           </div>
       </div>
-      <h1 className='Latest_Stories_Head'>Latest Stories</h1>
+      {/* <h1 className='Latest_Stories_Head'>Latest Stories</h1>
       <div className='Latest_Stories'>
-              
-      </div>
+
+      </div> */}
     </div>
     </>
   )
