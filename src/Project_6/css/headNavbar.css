@@ -5,17 +5,17 @@ header{
 .Logo{
     display: flex;
     justify-content: center;
-}
-.Logo > .left{
-    writing-mode: vertical-lr;
-    transform: scale(-1, -1);
-    align-self: center;  
-    font-size: 2em;
-    padding-bottom: 5px;
-}
-.Logo>.right{
-    font-size: 4.5em;
-    font-weight: bolder;
+    & > .left{
+        writing-mode: vertical-lr;
+        transform: scale(-1, -1);
+        align-self: center;  
+        font-size: 2em;
+        padding-bottom: 5px;
+    }
+    & >.right{
+        font-size: 4.5em;
+        font-weight: bolder;
+    }
 }
 .Navbar{
     font-size: 1.5em;
@@ -24,4 +24,49 @@ header{
     border-bottom: 2px solid #d9d9d9;
     padding: 10px 0px;
     margin-bottom: 2em;
+}
+
+@media screen and (max-width: 900px){
+    header{
+        max-width: 90vw;
+    }
+    .Logo{
+        & > .left{
+            font-size: 1.5em;
+        }
+        & >.right{
+            font-size: 3.5em;
+        }
+    }
+    .Navbar{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:555px){
+    header{
+        max-width: 100%;
+    }
+    .Logo{
+        border-bottom: 2px solid #d9d9d9;
+        box-shadow: 0 0 5px gray;
+        padding: 10px;
+        justify-content: start;
+        & > .left{
+            font-size: 1em;
+        }
+        & >.right{
+            font-size: 2.5em;
+        }
+    }
+    .Navbar{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        font-size: 1.5em;
+        & a{
+            border: 3px soild #d9d9d9;
+        }
+    }
 }

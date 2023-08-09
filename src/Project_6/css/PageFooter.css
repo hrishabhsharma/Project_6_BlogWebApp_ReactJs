@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mukta:wght@200&display=swap');
+
+Footer{
+    background-color: gainsboro;
+}
+.Footer_Body{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0em;
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+}
+.Footer_Body_Left{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+    width: 12vw;
+    font-family: Open Sans,sans-serif;
+    & .Logo{
+        justify-content: start;
+        & > .left{
+            font-size: 1.3em;
+        }
+        & >.right{
+            font-size: 3em;
+        }
+    }
+    & p{
+        color: gray;
+        text-align: justify;
+    }
+    & .Icons{
+        display: flex;
+    }
+}
+.Footer_Body_Middle{
+    display: flex;
+    gap: 5em;
+    letter-spacing: 0.5px;
+    & .Blog , .Resources , .Partners{
+        & h2{
+            font-family: Montserrat;
+        }
+        & div{
+            color: gray;
+            font-family: Open Sans;
+            margin-top: 0.7em;
+            cursor: pointer;
+            & :hover{
+                color: rgb(43, 186, 242);
+            }
+        }
+    }
+}
+.Footer_Body_Right{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    width: 15vw;
+    font-family: Montserrat;
+}
+.Copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0em;
+    border-top: 2px solid #c8c7c7;
+    width: 80vw;
+    margin: auto;
+    color: gray;
+    & div{
+        display: flex;
+        gap: 6em;
+        font-family: Open Sans;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .Footer_Body{
+        width: 90vw;
+        flex-direction: column;
+        padding-top: 0.5em;
+    }
+    .Footer_Body_Left{
+        width: 90%;
+        align-self: center;
+        gap: 0.3em;
+        & .Logo{
+            & > .left{
+                font-size: 1em;
+                padding-bottom: 2px;
+            }
+            & >.right{
+                font-size: 2.5em;
+            }
+        }
+    }
+    .Footer_Body_Middle{
+        align-self: center;
+        width: 90%;
+        gap: 1.5em;
+        margin: 0.5em 0;
+        & .Blog , .Resources , .Partners{
+            & div{
+                margin-top: 0.3em;
+            }
+        }
+    }
+    .Footer_Body_Right{
+        align-self: center;
+        width: 90%;
+        gap: 0.5em;
+    }
+    .Copyright{
+        width: 90vw;
+        padding: 0.5em 0;
+        & div{
+            gap: 0.3em;
+        }
+    }
+    
+}

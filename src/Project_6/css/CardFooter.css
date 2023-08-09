@@ -18,7 +18,7 @@
 .Footer_Card{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1em;
     width: 25%;
     border-radius: 20px;
     padding: 10px;
@@ -54,5 +54,33 @@
     & p{
         font-size: 1rem;
         color: #000;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .Card_Footer{
+        padding: 0.2em 2em 3em;
+    }
+    .Footer_Card{
+        gap: 0.6em;
+        & > img{
+            height: 8rem;
+        }
+    }
+    .Footer_Card_Heading{
+        font-size: 0.8rem;
+    }
+    .Footer_Card_Author_Details{
+        gap: 10px;
+        & > img{
+            width: 30%;
+            /* height: 80%; */
+        }
+        & span{
+            font-size: .5rem;
+        }
+        & p{
+            font-size: 0.7rem;
+        }
     }
 }

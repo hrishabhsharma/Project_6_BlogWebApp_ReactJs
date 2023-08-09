@@ -15,10 +15,10 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 0 10px 20px;
+    padding: 0 0.5em 1.25em;
     text-shadow: 2px 2px 2px rgb(112, 85, 184);
     & .head{
-        height: 65px;
+        height: 2.8em;
         font-size: 1.5rem;
         color: #ffffff;
         font-weight: 500;
@@ -37,7 +37,7 @@
     }
 }
 .Thumb1{
-    padding: 0 17px 50px;
+    padding: 0 1.2em 3em;
     grid-row: 1/3;
 }
 .Bottom_Thumb{
@@ -83,41 +83,41 @@
         height: 11rem;
         object-fit: cover;
     }
-}
-
-.Latest_Card_Overview{
-    display: flex;
-    flex-direction: column;
-    padding: 0px 10px;
-}
-.Latest_Card_Head{
-    height: 60px;
-    font-size: 1.3em;
-    color: #404040;
-    font-weight: 500;
-    overflow: hidden;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    display: -webkit-box;
-}
-.Latest_Card_Subhead{
-    font-size: .8rem;
-    color: #908D8D;
-    height: 50px;
-    overflow: hidden;
-    text-align: justify;
-}
-.Latest_Card_Foot{
-    font-size: .7rem;
-    color: #908d8d;
-    letter-spacing: 0.85px;
-    margin-top: auto;
-    padding-top: 10px;
-    & span{
+    & .Latest_Card_Overview{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    & .Latest_Card_Head{
+        height: 2.9em;
+        font-size: 1.3em;
         color: #404040;
         font-weight: 500;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+    }
+    & .Latest_Card_Subhead{
+        height: 3.9em;
+        font-size: .8rem;
+        color: #908D8D;
+        overflow: hidden;
+        text-align: justify;
+    }
+    .Latest_Card_Foot{
+        font-size: .7rem;
+        color: #908d8d;
+        letter-spacing: 0.85px;
+        margin-top: auto;
+        padding-top: 10px;
+        & span{
+            color: #404040;
+            font-weight: 500;
+        }
     }
 }
+
 
 .Latest_Article{
     display: flex;
@@ -129,16 +129,51 @@
     width: 60%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1em;
 
 }
 .section_2{
     width: 30%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.25em;
 }
-.Advertisement{
+/* .Advertisement{
     width: 100%;
     object-fit: fill;
+} */
+
+@media screen and (max-width: 900px){
+    .Home{
+        max-width: 80vw;
+    }
+    .Thumbnails{
+        grid-template-rows: 8em 8em;
+    }
+    .Thumb , .Bottom_Thumb{
+        & .head{
+            font-size: 1rem;
+        }
+    }
+    .Latest_Head , .Latest_Article_Head , .Top_Posts_Head , .Latest_Stories_Head{
+        margin: 0.5em 0;
+    }
+    .Latest_Card{
+        & > img{
+            height: 7rem;
+        }
+        & .Latest_Card_Overview{
+            padding: 0px;
+        }
+        & .Latest_Card_Head{
+            font-size: 1em;
+        }
+        & .Latest_Card_Subhead{
+            font-size: 0.7rem;
+        }
+        .Latest_Card_Foot{
+            font-size: 0.6rem;
+        }
+        
+    }
 }
