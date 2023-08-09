@@ -22,7 +22,7 @@
 .All-Cards , .Top-Cards{
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1.4em;
     transition: all 2s ease;
     transition-delay: 2s;
 }

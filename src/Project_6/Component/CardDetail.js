@@ -7,7 +7,6 @@ import user from '../assets/Mask Group 16.png'
 import clap from '../assets/rythm.svg'
 import sharing from '../assets/share.svg'
 import CardFooter from './CardFooter';
-// import { ScrollToTop } from './ScrollToTop';
 
 const CardDetail = () => {
   const SingleCard = useLocation().state.SingleCard
