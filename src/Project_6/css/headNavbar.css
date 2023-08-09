@@ -17,6 +17,9 @@ header{
         font-weight: bolder;
     }
 }
+.Burger_Icon{
+    display: none;
+}
 .Navbar{
     font-size: 1.5em;
     display: flex;
@@ -25,6 +28,7 @@ header{
     padding: 10px 0px;
     margin-bottom: 2em;
 }
+
 
 @media screen and (max-width: 900px){
     header{
@@ -46,12 +50,16 @@ header{
 @media only screen and (min-width:350px) and (max-width:555px){
     header{
         max-width: 100%;
+        border-bottom: 2px solid #dcdcdc;
+        box-shadow: 0 0 5px gray;
+    }
+    .Responsive_Bar{
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+        box-shadow: 0 0 5px gray;
     }
     .Logo{
-        border-bottom: 2px solid #d9d9d9;
-        box-shadow: 0 0 5px gray;
-        padding: 10px;
-        justify-content: start;
         & > .left{
             font-size: 1em;
         }
@@ -59,14 +67,29 @@ header{
             font-size: 2.5em;
         }
     }
+    .Burger_Icon{
+        display: block;
+        align-self: center;
+    }
+    .DropDown{
+        height: 0;
+        & a{
+            display: none;
+        }
+    }
     .Navbar{
-        display: none;
         flex-direction: column;
         align-items: center;
-        gap: 1em;
+        transition: all .3s linear;
         font-size: 1.5em;
+        border: none;
+        margin: 0;
+        padding: 0;
         & a{
-            border: 3px soild #d9d9d9;
+            border-bottom: 1px solid #dcdcdc;
+            width: 100%;
+            padding: 10px 0px;
+            text-align: center;
         }
     }
 }

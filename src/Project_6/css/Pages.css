@@ -45,7 +45,7 @@
         max-width: 90vw;
         & .Right-Tile{
         width: 35%;
-    }
+        }
     }
     .Tile-Head{
         font-size: 2em;

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mukta:wght@200&display=swap');
 
 Footer{
-    background-color: gainsboro;
+    background-color: #fff3e0;
 }
 .Footer_Body{
     display: flex;
@@ -9,7 +9,7 @@ Footer{
     padding: 1em 0em;
     width: 80vw;
     margin: auto;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 .Footer_Body_Left{
     display: flex;
@@ -48,7 +48,7 @@ Footer{
             margin-top: 0.7em;
             cursor: pointer;
             & :hover{
-                color: rgb(43, 186, 242);
+                color: #744f17;
             }
         }
     }
@@ -72,6 +72,7 @@ Footer{
         display: flex;
         gap: 6em;
         font-family: Open Sans;
+        align-self: center;
     }
 }
 
@@ -79,12 +80,11 @@ Footer{
     .Footer_Body{
         width: 90vw;
         flex-direction: column;
-        padding-top: 0.5em;
     }
     .Footer_Body_Left{
         width: 90%;
         align-self: center;
-        gap: 0.3em;
+        gap: 0.5em;
         & .Logo{
             & > .left{
                 font-size: 1em;
@@ -99,7 +99,7 @@ Footer{
         align-self: center;
         width: 90%;
         gap: 1.5em;
-        margin: 0.5em 0;
+        margin: 1em 0;
         & .Blog , .Resources , .Partners{
             & div{
                 margin-top: 0.3em;
@@ -119,4 +119,29 @@ Footer{
         }
     }
     
+}
+@media only screen and (min-width:350px) and (max-width:555px){
+    .Footer_Body{
+        width: 100%;
+        padding: 0.7em 0em;
+    }
+    .Footer_Body_Left{
+        & .Logo{
+            border: none;
+            box-shadow: none;
+            padding: 0;
+            justify-content: start;
+        }
+    }
+    .Footer_Body_Middle{
+        justify-content: space-between;
+        gap: 0;
+    }
+    .Footer_Body_Right{
+        gap: 0.3em;
+    }
+    .Copyright{
+        padding: 0.2em 0;
+    }
+
 }
