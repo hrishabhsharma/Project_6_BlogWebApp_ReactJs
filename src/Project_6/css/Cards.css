@@ -173,6 +173,7 @@
     .All_Card_right_side , .Top_Card_right_side{
         grid-template-rows: 1.4fr 1fr 1.2fr;
         padding: 0 10px;
+        gap: 5px;
     }
     .Top_Card_right_side{
         padding: 12px 10px;
