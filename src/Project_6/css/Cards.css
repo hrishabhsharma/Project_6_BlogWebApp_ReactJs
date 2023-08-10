@@ -179,14 +179,11 @@
     .Top_Card_Head{
         grid-row: 1/2;
     }
-    /* .Top_Card_right_side{
-        
-    } */
-    
     .Top_Card:first-child{
             height: 25em;
         & .Top_Card_right_side{
         padding: 5px 20px 5px 5px;
+        grid-template-rows: 2.5em 1em 0em;
         }
         & .Top_Card_Count{
             margin-top: -1.8em;
