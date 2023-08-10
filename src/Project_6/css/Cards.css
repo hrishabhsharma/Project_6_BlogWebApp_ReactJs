@@ -15,7 +15,7 @@
         font-size: 3.2em;
         letter-spacing: 1.48px;
         color: #908d8d;
-        /* align-self: center; */
+        align-self: center;
     }
 }
 
@@ -123,7 +123,8 @@
     }
     .Top_Card_left_side img{
         width: 5.4em;
-    }.All_Card_right_side , .Top_Card_right_side{
+    }
+    .All_Card_right_side , .Top_Card_right_side{
         padding: 0px 5px;
     }
     .All_Card_Head , .Top_Card_Head{
@@ -146,4 +147,28 @@
             font-size: 3em;
         }
     }
+}
+
+@media only screen and (min-width:350px) and (max-width:555px){
+    .All_Card , .Top_Card{
+        height: 9em;
+        gap: 1em;
+        border-top: 2px solid #f0f0f0;
+    }
+    .Top_Card{
+        height: 6em;
+        & .Top_Card_Count{
+            font-size: 3em;
+            align-self: center;
+        }
+    }
+    .All_Card_left_side , .Top_Card_left_side{
+        & img{
+            width: 9em;
+        }
+    }
+    .Top_Card_left_side img{
+        width: 6em;
+    }
+    
 }

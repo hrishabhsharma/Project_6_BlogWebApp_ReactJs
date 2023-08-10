@@ -39,3 +39,7 @@ export function Random_Number(count , min , max) {
     }
     return RandomArray;
 }
+
+export const ScrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+};

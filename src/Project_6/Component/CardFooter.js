@@ -2,9 +2,9 @@ import React, { useContext } from 'react'
 import { DataStorage } from '../DataStorage'
 import '../css/CardFooter.css'
 import user from '../assets/Mask Group 16.png'
-import {ShuffleCardsFooter} from './ShufflingFunction'
+import {ShuffleCardsFooter} from './HelpingFunction'
 import { Link } from 'react-router-dom'
-import { ScrollToTop } from './ScrollToTop'
+import { ScrollToTop } from './HelpingFunction'
 
 const CardFooter = ({Except_Card}) => {
     const RandomCards = ShuffleCardsFooter(Except_Card)

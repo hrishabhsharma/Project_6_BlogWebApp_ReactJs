@@ -5,12 +5,16 @@ import '../css/Pages.css'
 import HeadNavbar from './HeadNavbar';
 import DownArrow from '../assets/arrow.svg'
 import RightArrow from '../assets/arrow-1.svg'
+import { ScrollToTop } from './HelpingFunction';
 
 const Pages = ({category}) => {
   const Api = useContext(DataStorage);
   const [LoadMore , setLoadMore] = useState(false)
   const ToggleLoadMore = ()=>{
       setLoadMore(!LoadMore);
+      if(LoadMore){
+      ScrollToTop();
+      }
   }
   return (
     <>

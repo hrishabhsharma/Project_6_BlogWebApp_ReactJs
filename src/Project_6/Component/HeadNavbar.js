@@ -18,7 +18,7 @@ const HeadNavbar = () => {
         </div>
         <img onClick={Dropdown} className='Burger_Icon' width="50" height="50" src="https://img.icons8.com/ios/50/menu--v7.png" alt="icon not found"/>
       </div>
-      <div className={Toggle ? 'Navbar' : 'Navbar DropDown'}>
+      <div className={Toggle ? 'DropDown' : 'Navbar'}>
           <NavLink style={({isActive}) => ({color: isActive ? "crimson" : "black",})} to='/'>Home</NavLink>
           <NavLink style={({isActive}) => ({color: isActive ? "crimson" : "black",})} to='/bollywood'>Bollywood</NavLink>
           <NavLink style={({isActive}) => ({color: isActive ? "crimson" : "black",})} to='/technology'>Technology</NavLink>

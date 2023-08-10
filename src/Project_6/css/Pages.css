@@ -24,8 +24,6 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    transition: all 2s ease;
-    transition-delay: 2s;
 }
 .Toggle_Button{
     display: flex;
@@ -59,5 +57,30 @@
     }
     .Toggle_Button{
         font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:555px){
+    .Main-Body{
+        flex-direction: column;
+        margin-top: 1em;
+        gap: 2em;
+        & .Left-Tile , .Right-Tile{
+            width: 100%;
+        }
+    }
+    .Tile-Head{
+        font-size: 1.8em;
+    }
+    .bottom-line {
+        width: 5em;
+    }
+    .All-Cards , .Top-Cards{
+        gap: 1em;
+    }
+    .Toggle_Button{
+        font-size: 1em;
+        margin-top: 1em;
+        gap: 0.2em;
     }
 }
