@@ -171,7 +171,8 @@
         width: 8em;
     }
     .All_Card_right_side , .Top_Card_right_side{
-        grid-template-rows: 5em 0fr 2.2em;
+        grid-template-rows: 3em 0em 1em;
+        align-content: space-between;
         padding: 0 10px;
         /* gap: 7px; */
     }
