@@ -21,6 +21,9 @@ const HomeComp = () => {
   const [LoadMore , setLoadMore] = useState(false)
   const ToggleLoadMore = ()=>{
       setLoadMore(!LoadMore);
+      if(LoadMore){
+        ScrollToTop();
+      }
   }
   // console.log(Api)
   return (
