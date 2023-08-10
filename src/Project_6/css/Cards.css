@@ -138,7 +138,7 @@
         letter-spacing: 0px;
     }
     .Top_Card:first-child{
-        height: 14rem;
+            height: 14rem;
         & .Top_Card_right_side{
             padding: 5px 10px 5px 5px;
             grid-template-rows: 10px 30px 15px;
@@ -156,7 +156,7 @@
         border-top: 2px solid #f0f0f0;
     }
     .Top_Card{
-        height: 6em;
+        height: 8em;
         & .Top_Card_Count{
             font-size: 3em;
             align-self: center;
@@ -168,7 +168,23 @@
         }
     }
     .Top_Card_left_side img{
-        width: 6em;
+        width: 8em;
+    }
+    .All_Card_right_side , .Top_Card_right_side{
+        grid-template-rows: 1.4fr 1fr 1.2fr;
+        padding: 0 10px;
+    }
+    .Top_Card_right_side{
+        padding: 12px 10px;
     }
     
+    .Top_Card:first-child{
+            height: 25em;
+        & .Top_Card_right_side{
+        padding: 5px 20px 5px 5px;
+        }
+        & .Top_Card_Count{
+            margin-top: -1.8em;
+        }
+    }
 }
