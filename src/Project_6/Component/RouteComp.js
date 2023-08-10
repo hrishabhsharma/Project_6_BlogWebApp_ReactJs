@@ -3,6 +3,7 @@ import { Routes , Route } from 'react-router-dom'
 import Home from './Home'
 import Pages from './Pages'
 import CardDetail from './CardDetail'
+import ErrorPage from './ErrorPage'
 
 const RouteComp = () => {
   return (
@@ -15,6 +16,7 @@ const RouteComp = () => {
         <Route  path='/fitness'    element={<Pages category={'Fitness'}/>}/>
         <Route  path='/food'       element={<Pages category={'Food'}/>}/>
         <Route  path='/:comp/:id'  element={<CardDetail/>}/>
+        <Route  path='/*'           element={<ErrorPage/>}/>
     </Routes>
     </>
   )

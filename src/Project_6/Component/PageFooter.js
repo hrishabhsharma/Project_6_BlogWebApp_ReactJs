@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import '../css/PageFooter.css'
+import { ScrollToTop } from './HelpingFunction'
 
 const PageFooter = () => {
     const Navigator = useNavigate()
@@ -24,11 +25,11 @@ const PageFooter = () => {
             <div className='Blog'>
                 <h2>Blog</h2>
                 <div>
-                    <div onClick={()=>Navigator('/bollywood') }> Bollywood</div>
-                    <div onClick={()=>Navigator('/technology')}> Technology</div>
-                    <div onClick={()=>Navigator('/hollywood') }> Hollywood</div>
-                    <div onClick={()=>Navigator('/fitness')   }> Fitness</div>
-                    <div onClick={()=>Navigator('/food')      }> Food</div>
+                    <div onClick={()=>{Navigator('/bollywood') ; ScrollToTop()}}> Bollywood</div>
+                    <div onClick={()=>{Navigator('/technology'); ScrollToTop()}}> Technology</div>
+                    <div onClick={()=>{Navigator('/hollywood') ; ScrollToTop()}}> Hollywood</div>
+                    <div onClick={()=>{Navigator('/fitness')   ; ScrollToTop()}}> Fitness</div>
+                    <div onClick={()=>{Navigator('/food')      ; ScrollToTop()}}> Food</div>
                 </div>
             </div>
             <div className='Resources'>

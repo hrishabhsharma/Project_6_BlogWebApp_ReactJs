@@ -7,6 +7,7 @@ import user from '../assets/Mask Group 16.png'
 import clap from '../assets/rythm.svg'
 import sharing from '../assets/share.svg'
 import CardFooter from './CardFooter';
+import PageFooter from './PageFooter';
 
 const CardDetail = () => {
   const SingleCard = useLocation().state.SingleCard
@@ -27,7 +28,7 @@ const CardDetail = () => {
                 </div>
           </div >
           <div className='Card_Main_Body'>
-            <button className="Back_Button_Sliding" onClick={()=>{Navigator('/'+SingleCard.genre)}} >
+            <button className="Back_Button_Sliding" onClick={()=>{Navigator(-1)}} >
                 Go Back
             </button>
             <div className="Floating_Section">
@@ -78,6 +79,7 @@ const CardDetail = () => {
             </div>
           </div>
           <CardFooter Except_Card={SingleCard.id}/>
+          <PageFooter/>
         </>
   )
 }

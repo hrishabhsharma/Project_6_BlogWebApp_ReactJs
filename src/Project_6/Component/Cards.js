@@ -35,7 +35,7 @@ const Cards = ({
   }
   else{
     return (
-      <Link to={"/"+genre+"/"+id} className='Top_Card' state={{SingleCard:wholecard}}>
+      <Link onClick={ScrollToTop} to={"/"+genre+"/"+id} className='Top_Card' state={{SingleCard:wholecard}}>
           <div className='Top_Card_left_side'>
               <img src={image} alt='not found'/>
           </div>

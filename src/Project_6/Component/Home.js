@@ -9,6 +9,7 @@ import Cards from './Cards'
 import Advertise from '../assets/3573754.jpg'
 import DownArrow from '../assets/arrow.svg'
 import RightArrow from '../assets/arrow-1.svg'
+import PageFooter from './PageFooter'
 
 const HomeComp = () => {
   const Api = useContext(DataStorage)
@@ -136,6 +137,7 @@ const HomeComp = () => {
 
       </div> */}
     </div>
+    <PageFooter/>
     </>
   )
 }

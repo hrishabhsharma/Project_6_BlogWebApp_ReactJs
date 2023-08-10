@@ -6,6 +6,7 @@ import HeadNavbar from './HeadNavbar';
 import DownArrow from '../assets/arrow.svg'
 import RightArrow from '../assets/arrow-1.svg'
 import { ScrollToTop } from './HelpingFunction';
+import PageFooter from './PageFooter';
 
 const Pages = ({category}) => {
   const Api = useContext(DataStorage);
@@ -82,6 +83,7 @@ const Pages = ({category}) => {
         {/* <div className='advertise'>Advertisement</div> */}
       </div>
     </div>
+    <PageFooter/>
     </>
 
   )
