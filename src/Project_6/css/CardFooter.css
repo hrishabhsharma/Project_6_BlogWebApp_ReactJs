@@ -84,3 +84,42 @@
         }
     }
 }
+
+@media only screen and (min-width:350px) and (max-width:555px){
+    .Footer_Cards{
+        flex-direction: column;
+    }
+    .Footer_Card{
+        width: 100%;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        gap: 0;
+        padding: 10px 0;
+        & > img{
+            order: 2;
+            height: 7rem;
+            width: 40%;
+        }
+    }
+    .Footer_Card_Heading{
+        order: 1;
+        font-size: 1rem;
+        width: 60%;
+        height: 4em;
+    }
+    .Footer_Card_Author_Details{
+        order: 3;
+        margin-top: -2em;
+
+        & > img{
+            display: none;
+        }
+        & span{
+            font-size: 0;
+        }
+        & p{
+            font-size: 1.1rem;
+            color: #a2a2a2;
+        }
+    }
+}

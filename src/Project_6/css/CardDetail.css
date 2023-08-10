@@ -210,5 +210,61 @@
         padding: 2px 10px;
     }
 }
+@media only screen and (min-width:350px) and (max-width:555px){
+    .Card_Header{
+        max-width: 100%;
+        padding: 1em;
+        box-shadow: 0 0 5px gray;
+    }
+    .Card_Main_Body{
+        max-width: 90vw;
+    }
+    .Floating_Section{
+        display: none;
+    }
+    .Back_Button_Sliding{
+        float: none;
+        top: 0;
+        left: 35%;
+    }
+    .Content{
+        width: 100%;
+    }
+    .Author{
+        flex-direction: column-reverse;
+    }
+    .Author_Details{
+        gap: 1.5em;
+    }
+    .Author_Details img{
+        width: 15%;
+    }
+    .Author_Details span{
+        font-size: 1rem;
+        line-height: 1.5em;
+    }
+    .Author_Details p{
+        font-size: 1.5rem;  
+    }
+    .Bottom_Author img{
+        width: 18%;
+    }
+    .Social_Sites{
+        align-self: flex-start;
+        height: 3em;
+        & svg{
+            height: 1.5em;
+            width: 1.5em;
+        }
+    }
+    .Like_Box{
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 2em;
+        & span{
+            align-self: center;
+        }
+    }
+}
 
 

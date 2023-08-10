@@ -175,9 +175,9 @@
         padding: 0 10px;
         gap: 7px;
     }
-    .Top_Card_right_side{
-        padding: 12px 10px;
-    }
+    /* .Top_Card_right_side{
+        
+    } */
     
     .Top_Card:first-child{
             height: 25em;
