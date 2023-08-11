@@ -3,6 +3,7 @@ import { DataStorage } from '../DataStorage';
 import Cards from './Cards';
 import '../css/Pages.css'
 import HeadNavbar from './HeadNavbar';
+import Advertise from '../assets/3573754.jpg'
 import DownArrow from '../assets/arrow.svg'
 import RightArrow from '../assets/arrow-1.svg'
 import { ScrollToTop } from './HelpingFunction';
@@ -79,8 +80,8 @@ const Pages = ({category}) => {
                         date={item.date}
                         genre={item.genre}
                   />)}
+        <img src={Advertise} alt='add not found'/>
         </div>
-        {/* <div className='advertise'>Advertisement</div> */}
       </div>
     </div>
     <PageFooter/>

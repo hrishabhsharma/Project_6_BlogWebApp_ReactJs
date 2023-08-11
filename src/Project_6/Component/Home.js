@@ -17,6 +17,7 @@ const HomeComp = () => {
   const The_Latest = Random_Number(3,1,100)
   const Latest_Article = Random_Number(10,1,100)
   const Top_Article = Random_Number(5,1,100)
+  const Latest_Stories = Random_Number(3,1,100)
   const Bottom_Thumbnails = Random_Number(1,1,100)
   const [LoadMore , setLoadMore] = useState(false)
   const ToggleLoadMore = ()=>{
@@ -32,7 +33,7 @@ const HomeComp = () => {
     <div className='Home'>
       <div className='Thumbnails' >
         {
-         Api.filter((data)=>Top_Thumbnails.find((j)=> j===data.id)===data.id)
+          Api && Api.filter((data)=>Top_Thumbnails.find((j)=> j===data.id)===data.id)
          .map((item,index)=>{
           return(
             <Link key={index} 
@@ -50,7 +51,7 @@ const HomeComp = () => {
         <h1 className='Latest_Head'>The Latest</h1>
         <div className='Latest'>
           {
-            Api.filter((data)=>The_Latest.find((j)=> j===data.id)===data.id)
+            Api && Api.filter((data)=>The_Latest.find((j)=> j===data.id)===data.id)
             .map((item,index)=>{
              return(
               <Link key={index} 
@@ -69,9 +70,9 @@ const HomeComp = () => {
           }
         </div>
       </div>
-      <h1 className='Latest_Article_Head'>Latest Articles</h1>
       <div className='Latest_Article'>
           <div className='section_1'>
+            <h1 className='Latest_Article_Head'>Latest Articles</h1>
             {Api && Api.filter((data)=>Latest_Article.slice(0,5).find((j)=> j===data.id)===data.id)
                      .map((item,index)=>
                            <Cards
@@ -135,10 +136,25 @@ const HomeComp = () => {
             />)}
           </div>
       </div>
-      {/* <h1 className='Latest_Stories_Head'>Latest Stories</h1>
+      <h1 className='Latest_Stories_Head'>Latest Stories</h1>
       <div className='Latest_Stories'>
-
-      </div> */}
+              {
+                Api && Api.filter((data)=>Latest_Stories.find((j)=> j===data.id)===data.id)
+                    .map((item,index)=>{
+                     return(
+                      <Link key={index} 
+                            to={"/"+item.genre+"/"+item.id}
+                            state={{SingleCard:item}} 
+                            className='Latest_Card Stories' 
+                            onClick={ScrollToTop}>
+                          <div className='Latest_Card_Overview Stories_Overview'>
+                              <p className='Latest_Card_Head'>{item.heading}</p>
+                              <p className='Latest_Card_Subhead Stories_Subhead'>{item.content}</p>
+                              <p className='Latest_Card_Foot'><span>{item.genre}</span> / {item.date}</p>
+                          </div>
+                      </Link>
+                )})}
+      </div>
     </div>
     <PageFooter/>
     </>

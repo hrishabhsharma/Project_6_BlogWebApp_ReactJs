@@ -17,7 +17,7 @@ export function ShuffleCardsFooter (Except_Card){
     if(Except_Card <= 20){
        return Random(1,21,Except_Card)
     }
-    else if(Except_Card > 20 && Except_Card <=40){
+    else if(Except_Card >20 && Except_Card <=40){
        return Random(21,41,Except_Card)
     }
     else if(Except_Card >40 && Except_Card <=60){

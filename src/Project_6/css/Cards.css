@@ -33,7 +33,7 @@
 
 .All_Card_right_side , .Top_Card_right_side{
     display: grid;
-    grid-template-rows: 1.1fr 1.1fr 0.8fr;
+    grid-template-rows: 1.3fr 1.1fr 0.8fr;
     padding: 0px 20px;
     overflow: hidden;
 }
@@ -133,10 +133,10 @@
     .Top_Card_Head{
         font-size: 0.9em;
     }
-    .Top_Card_Foot{
+    /* .Top_Card_Foot{
         font-size: 0.5em;
         letter-spacing: 0px;
-    }
+    } */
     .Top_Card:first-child{
             height: 14em;
         & .Top_Card_right_side{
@@ -170,11 +170,14 @@
     .Top_Card_left_side img{
         width: 8em;
     }
-    .All_Card_right_side , .Top_Card_right_side{
-        grid-template-rows: 4.5em 0em 0em;
-        align-content: space-between;
-        padding: 0 10px;
+    .All_Card_right_side{
         /* gap: 7px; */
+        grid-template-rows: 1.1fr 1.1fr 0.6fr;
+        padding: 0 10px;
+    }
+    .Top_Card_right_side{
+        grid-template-rows: 3.8em 0em 0em;
+        align-content: space-between;
     }
     .Top_Card_Head{
         grid-row: 1/2;

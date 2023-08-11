@@ -17,7 +17,6 @@ const Cards = ({
                       count,
                       Toggle
                     }) => {  
-                      // console.log(Toggle)
   if(type === 'main'){
     return (
       <Link onClick={ScrollToTop} to={"/"+genre+"/"+id} className={`All_Card ${Toggle}`}
