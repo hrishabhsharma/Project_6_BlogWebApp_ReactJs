@@ -197,7 +197,7 @@
 @media only screen and (min-width:280px) and (max-width:555px){
     .Home{
         max-width: 95%;
-        overflow: hidden;
+        padding-top: 5em;
     }
     .Thumb{
         display: none;
