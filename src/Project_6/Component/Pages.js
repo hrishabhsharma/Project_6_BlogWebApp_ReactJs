@@ -80,7 +80,7 @@ const Pages = ({category}) => {
                         date={item.date}
                         genre={item.genre}
                   />)}
-        <img src={Advertise} alt='add not found'/>
+        <img className='advertise' src={Advertise} alt='add not found'/>
         </div>
       </div>
     </div>

@@ -85,4 +85,7 @@
         margin-top: 1em;
         gap: 0.2em;
     }
+    .advertise{
+        display: none;
+    }
 }
