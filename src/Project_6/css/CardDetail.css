@@ -1,6 +1,8 @@
 .Card_Header{
-    margin: auto;
-    /* max-width: 90vw; */
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
     border-bottom: 2px solid rgb(207, 202, 202);
     box-shadow: 0px 3px 6px #00000029;
     padding: 1em 8em;
@@ -26,6 +28,7 @@
 
 
 .Card_Main_Body{
+    padding-top: 6em;
     margin: auto;
     max-width: 80vw;
 }

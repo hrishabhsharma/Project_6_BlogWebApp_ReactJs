@@ -149,7 +149,7 @@
     }
 }
 
-@media only screen and (min-width:350px) and (max-width:555px){
+@media only screen and (min-width:280px) and (max-width:555px){
     .All_Card , .Top_Card{
         height: 9em;
         gap: 1em;

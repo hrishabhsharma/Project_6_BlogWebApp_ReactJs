@@ -120,7 +120,7 @@ Footer{
     }
     
 }
-@media only screen and (min-width:350px) and (max-width:555px){
+@media only screen and (min-width:280px) and (max-width:555px){
     .Footer_Body{
         width: 100%;
         padding: 0.7em 0em;
