@@ -212,7 +212,7 @@
         padding: 2px 10px;
     }
 }
-@media only screen and (min-width:350px) and (max-width:555px){
+@media only screen and (min-width:280px) and (max-width:555px){
     .Card_Header{
         padding: 1em;
     }

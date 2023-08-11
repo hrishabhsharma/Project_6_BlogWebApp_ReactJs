@@ -1,6 +1,9 @@
 header{
-    margin: auto;
-    max-width: 80vw;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 1px 5px gray;
+    width: 100vw;
+    z-index: 1;
 }
 .Logo{
     display: flex;
@@ -26,14 +29,10 @@ header{
     justify-content: space-around;
     border-bottom: 2px solid #d9d9d9;
     padding: 10px 0px;
-    margin-bottom: 2em;
 }
 
 
 @media screen and (max-width: 900px){
-    header{
-        max-width: 90vw;
-    }
     .Logo{
         & > .left{
             font-size: 1.5em;
@@ -48,11 +47,6 @@ header{
 }
 
 @media only screen and (min-width:350px) and (max-width:555px){
-    header{
-        max-width: 100%;
-        border-bottom: 2px solid #dcdcdc;
-        box-shadow: 0 0 5px gray;
-    }
     .Responsive_Bar{
         display: flex;
         justify-content: space-between;
