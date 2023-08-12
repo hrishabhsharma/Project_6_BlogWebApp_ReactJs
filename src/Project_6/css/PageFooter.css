@@ -18,7 +18,7 @@ Footer{
     width: 12vw;
     font-family: Open Sans,sans-serif;
     & .Logo{
-        justify-content: start;
+        height: 3.5em;
         & > .left{
             font-size: 1.3em;
         }
