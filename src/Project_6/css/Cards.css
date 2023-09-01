@@ -195,4 +195,10 @@
     .All_Card_Subhead {
         font-size: 13px;
     }
+    .All_Card_Head{
+        font-size: 18px;
+    }
+    .All_Card_Foot, .Top_Card_Foot {
+        font-size: 11px;
+    }
 }
