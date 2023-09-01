@@ -16,7 +16,7 @@ const RouteComp = () => {
         <Route  path='/fitness'    element={<Pages category={'Fitness'}/>}/>
         <Route  path='/food'       element={<Pages category={'Food'}/>}/>
         <Route  path='/:comp/:id'  element={<CardDetail/>}/>
-        <Route  path='/*'           element={<ErrorPage/>}/>
+        <Route  path='/*'          element={<ErrorPage/>}/>
     </Routes>
     </>
   )

@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 import '../css/Cards.css'
 import { ScrollToTop } from './HelpingFunction'
 
-
+//       WE DO NOT USE THIS COMPONENT
+//       THIS IS NOT USEFUL
+//       THIS IS SEPERATE COMPONENT FOR ALL CARDS IN PAGES
 
 const Cards = ({
                       id,
