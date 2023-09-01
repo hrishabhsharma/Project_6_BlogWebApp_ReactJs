@@ -164,7 +164,7 @@
     }
     .All_Card_left_side , .Top_Card_left_side{
         & img{
-            width: 9em;
+            width: 8em;
         }
     }
     .Top_Card_left_side img{

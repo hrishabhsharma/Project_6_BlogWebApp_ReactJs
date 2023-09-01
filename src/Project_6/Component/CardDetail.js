@@ -21,7 +21,7 @@ const CardDetail = () => {
           <div className='Card_Header'>
                 <Link to={"/"} className='Logo'>
                     <div className='left'>The</div>
-                    <div className='right'>Siren</div>
+                    <div className='right'>Hrep</div>
                 </Link>
                 <div className="CardHeader_Logo_GetStarted">
                     Get Started
