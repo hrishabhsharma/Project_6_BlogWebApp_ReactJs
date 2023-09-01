@@ -211,7 +211,10 @@
     .Thumb1{
         padding: 0 1.2em 3em;
     }
-    .Latest_Head , .Latest_Article_Head , .Top_Posts_Head , .Latest_Stories_Head{
+    .Latest_Article_Head , .Top_Posts_Head , .Latest_Stories_Head{
+        margin: 1em 0.5em;
+    }
+    .Latest_Head{
         margin: 1em 1em;
     }
 
@@ -221,7 +224,7 @@
         gap: 1.5em;
     }
     .Latest_Card{
-        width: 80%;
+        width: 90%;
         height: 27em;
         gap: 0;
         & > img{
@@ -232,7 +235,6 @@
         }
     }
     .Latest_Article{
-        /* width: 80%; */
         align-items: center;
         flex-direction: column;
         & .section_1{

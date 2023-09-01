@@ -6,7 +6,8 @@ const HeadNavbar = () => {
   const Navigator = useNavigate()
   const [Toggle , setToggle] = useState(false)
   const Dropdown = ()=>{
-    setToggle(!Toggle)
+    setToggle(!Toggle);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
   return (
     <>
@@ -14,17 +15,17 @@ const HeadNavbar = () => {
       <div className='Responsive_Bar'>
         <div onClick={()=>Navigator('/')} className='Logo'>
           <div className='left'>The</div>
-          <div className='right'>Siren</div>
+          <div className='right'>Hrep</div>
         </div>
-        <img onClick={Dropdown} className='Burger_Icon' width="50" height="50" src="https://img.icons8.com/ios/50/menu--v7.png" alt="icon not found"/>
+        <img onClick={()=>setToggle(!Toggle)} className='Burger_Icon' width="50" height="50" src="https://img.icons8.com/ios/50/menu--v7.png" alt="icon not found"/>
       </div>
       <div className={Toggle ? 'DropDown' : 'Navbar'}>
-          <NavLink onClick={Dropdown} style={({isActive}) => ({color: isActive ? "crimson" : "black",})} to='/'>Home</NavLink>
-          <NavLink onClick={Dropdown} style={({isActive}) => ({color: isActive ? "crimson" : "black",})} to='/bollywood'>Bollywood</NavLink>
-          <NavLink onClick={Dropdown} style={({isActive}) => ({color: isActive ? "crimson" : "black",})} to='/technology'>Technology</NavLink>
-          <NavLink onClick={Dropdown} style={({isActive}) => ({color: isActive ? "crimson" : "black",})} to='/hollywood'>Hollywood</NavLink>
-          <NavLink onClick={Dropdown} style={({isActive}) => ({color: isActive ? "crimson" : "black",})} to='/fitness'>Fitness</NavLink>
-          <NavLink onClick={Dropdown} style={({isActive}) => ({color: isActive ? "crimson" : "black",})} to='/food'>Food</NavLink>
+          <NavLink onClick={Dropdown} activeClassName="active" exact to='/'>Home</NavLink>
+          <NavLink onClick={Dropdown} activeClassName="active" exact to='/bollywood'>Bollywood</NavLink>
+          <NavLink onClick={Dropdown} activeClassName="active" exact to='/technology'>Technology</NavLink>
+          <NavLink onClick={Dropdown} activeClassName="active" exact to='/hollywood'>Hollywood</NavLink>
+          <NavLink onClick={Dropdown} activeClassName="active" exact to='/fitness'>Fitness</NavLink>
+          <NavLink onClick={Dropdown} activeClassName="active" exact to='/food'>Food</NavLink>
       </div>
     </header>
     </>

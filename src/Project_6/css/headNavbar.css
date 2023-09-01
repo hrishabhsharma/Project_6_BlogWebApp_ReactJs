@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond&display=swap');
+
 header{
     position: fixed;
     background-color: white;
@@ -6,20 +8,22 @@ header{
     top: 0;
     z-index: 1;
     margin-top: -1em;
+    font-family: 'EB Garamond', serif;
+    padding: 0 7rem;
 }
 .Logo{
     display: flex;
     justify-content: center;
     height: 6em;
+    font-family: 'Abril Fatface', cursive;
     & > .left{
         writing-mode: vertical-lr;
         transform: scale(-1, -1);
         align-self: center;  
-        font-size: 2em;
-        padding-bottom: 5px;
+        font-size: 1.7em;
     }
     & >.right{
-        font-size: 4.5em;
+        font-size: 4em;
         font-weight: bolder;
     }
 }
@@ -33,9 +37,17 @@ header{
     justify-content: space-around;
     & a{
         font-size: 1.5em;
-        text-shadow: 0px 0px 5px #9C27B0
+        text-shadow: 0px 0px 2px #2a2c2c56;
+    }
+    & a:hover{
+        text-shadow: -2px 0px 10px #2a2c2c9a;
+    }
+    & .active{
+        color: orangered;
     }
 }
+
+
 
 
 @media screen and (max-width: 900px){
@@ -55,6 +67,7 @@ header{
 @media only screen and (min-width:280px) and (max-width:555px){
     header{
         margin-top: 0;
+        padding: 0;
     }
     .Responsive_Bar{
         display: flex;
@@ -78,9 +91,10 @@ header{
         position: absolute;
         flex-direction: column;
         background-color: white;
-        height: 11em;
+        height: 12em;
         width: 100%;
         padding: 0px 20%;
+        margin-top: auto;
         box-shadow: inset 0 0 5px gray;
         border-radius: 0px 0px 10px 10px;
         transition: height 0.8s ease;
@@ -88,7 +102,7 @@ header{
             transition-delay: 0.65s;
             text-align: center;
             border-top: 1px solid #F4F4F4;
-            font-family: 'Montserrat';
+            /* font-family: 'Montserrat'; */
         }
         & :first-child{
                 border-top: none ;

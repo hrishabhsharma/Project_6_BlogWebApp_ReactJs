@@ -11,7 +11,7 @@ const PageFooter = () => {
         <div className='Footer_Body_Left'>
             <div onClick={()=>Navigator('/')} className="Logo">
                 <span className="left">The </span> 
-                <span className='right'>Prep</span>
+                <span className='right'>Hrep</span>
             </div>
             <p>The Prep is a Blog website where people can share their views and view other people thoughts.</p>
             <div className='Icons'>

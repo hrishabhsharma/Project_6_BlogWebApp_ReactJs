@@ -134,14 +134,19 @@ Footer{
         }
     }
     .Footer_Body_Middle{
-        justify-content: space-between;
+        justify-content: space-around;
+        width: 100%;
         gap: 0;
+        & .Blog , .Resources , .Partners{
+            font-size: 0.85em;
+        }
     }
     .Footer_Body_Right{
         gap: 0.3em;
     }
     .Copyright{
-        padding: 0.2em 0;
+        width: 100%;
+        padding: 0.2em;
     }
 
 }
