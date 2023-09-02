@@ -91,26 +91,26 @@
     }
     .Footer_Card{
         width: 100%;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        gap: 0;
+        display: block;
         padding: 10px 0;
         & > img{
-            order: 2;
+            float: right;
             height: 6rem;
-            width: 30%;
+            width: 30%;    
         }
     }
     .Footer_Card_Heading{
-        order: 1;
-        font-size: 1.2rem;
+        font-size: 1rem;
+        /* height: 2.9em; */
         width: 70%;
-        height: 2.9em;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
     }
     .Footer_Card_Author_Details{
-        order: 3;
-        margin-top: -2em;
-
+        display: block;
+        /* height: 0em; */
+        margin-top: -1em;
         & > img{
             display: none;
         }

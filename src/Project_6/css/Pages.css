@@ -76,7 +76,6 @@
         padding-top: 5em;
         flex-direction: column;
         margin-top: 1em;
-        gap: 2em;
         & .Left-Tile , .Right-Tile{
             width: 100%;
             margin-bottom: 1em;

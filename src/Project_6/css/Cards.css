@@ -155,8 +155,11 @@
     .All_Card_Foot, .Top_Card_Foot {
         letter-spacing: 0.2px;
     }
+    .All_Card_Subhead{
+        -webkit-line-clamp: 4;
+    }
     .Top_Card{
-        height: 8em;
+        height: 7em;
         & .Top_Card_Count{
             font-size: 3em;
             align-self: center;
@@ -177,7 +180,7 @@
         -webkit-line-clamp: 4;
     }
     .Top_Card:first-child{
-            height: 25em;
+            height: 20em;
         & .Top_Card_Count{
             margin-top: -1.8em;
         }
