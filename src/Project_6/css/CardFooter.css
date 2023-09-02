@@ -101,7 +101,7 @@
     }
     .Footer_Card_Heading{
         font-size: 1rem;
-        height: none;
+        height: 3.8em;
         width: 70%;
         display: -webkit-box;
         -webkit-box-orient: vertical;
