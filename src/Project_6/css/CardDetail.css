@@ -24,23 +24,17 @@
         }
 }
 
-
-
-.Card_Main_Body{
-    padding-top: 7em;
-    margin: auto;
-    max-width: 80vw;
-}
-
 .Floating_Section{
     display: flex;
     flex-direction: column;
     position: sticky;
     float: left;
-    clear: left;
     gap: 2.5rem;
     top: 50vh;
-    padding-right: 10px;
+    left: 6em;
+    z-index: -1;
+    /* padding-right: 10px; */
+    /* clear: left; */
 }
 & .Like_Box , .Share_Box{
     display: flex;
@@ -52,8 +46,14 @@
     gap: 2.75rem;
 }
 
+.Card_Main_Body{
+    padding-top: 7em;
+    margin: auto;
+    max-width: 80vw;
+}
+
 .Back_Button_Sliding{
-    float: left;
+    /* float: left; */
     top: 20px;
     width: 130px;
     height: 40px;

@@ -6,17 +6,21 @@ import {ShuffleCardsFooter} from './HelpingFunction'
 import { Link } from 'react-router-dom'
 import { ScrollToTop } from './HelpingFunction'
 
+//       WE DO NOT USE THIS COMPONENT
+//       THIS IS NOT USEFUL
+//       THIS IS SEPERATE COMPONENT FOR EXTRA CARDS IN A SINGLE DETAIL PAGE
+
+
+
 const CardFooter = ({Except_Card}) => {
     const RandomCards = ShuffleCardsFooter(Except_Card)
     const Api = useContext(DataStorage)
-    console.log(RandomCards)
 
     return (
         <div className='Card_Footer'>
-            <div className='Footer_Cards_Title'>More From the Siren</div>
+            <div className='Footer_Cards_Title'>More From the Hrep</div>
             <div  className='Footer_Cards'>
-            {   
-                Api.filter((data)=>RandomCards.find((j)=> j===data.id)===data.id)
+            {Api && Api.filter((data)=>RandomCards.find((j)=> j===data.id)===data.id)
                 .map((item,index)=>{
                 return(
                         <Link   key={index} 

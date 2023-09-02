@@ -101,13 +101,6 @@
         align-self: flex-end;
     }
 }
-.advertise{
-    margin-top: 10em;
-    width: 100%;
-    height: 50em;
-    text-align: center;
-    border: 2px solid black;
-}
 
 @media screen and (max-width: 900px){
     .Top_Card{

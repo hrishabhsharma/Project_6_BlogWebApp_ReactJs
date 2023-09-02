@@ -13,7 +13,7 @@ const PageFooter = () => {
                 <span className="left">The </span> 
                 <span className='right'>Hrep</span>
             </div>
-            <p>The Prep is a Blog website where people can share their views and view other people thoughts.</p>
+            <p>The Hrep is a Blog website where people can share their views and view other people thoughts.</p>
             <div className='Icons'>
                 <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/linkedin-circled--v1.png" alt="linkedin-circled--v1"/>
                 <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/twitter-circled--v1.png" alt="twitter-circled--v1"/>
@@ -52,11 +52,11 @@ const PageFooter = () => {
         <div className='Footer_Body_Right'>
             <h1>Generate Your Querry ?</h1>
             <p>+91-7987715253</p>
-            <p>support@prep.com</p>
+            <p>support@hrep.com</p>
         </div>
     </div>
     <div className='Copyright'>
-        <p>© 2023 THE PREP - A Blog Website</p>
+        <p>© 2023 THE HREP - A Blog Website</p>
         <div>
             <p>Privacy Policy</p>
             <p>Terms of service</p>
