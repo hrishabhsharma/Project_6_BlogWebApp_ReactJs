@@ -134,7 +134,7 @@
             height: 14.5em;
         & .Top_Card_right_side{
             padding: 5px 10px 5px 5px;
-            grid-template-rows: 10px 30px 15px;
+            /* grid-template-rows: 10px 30px 15px; */
         }
         & .Top_Card_Head{
             -webkit-line-clamp: 2;
@@ -183,6 +183,9 @@
             height: 20em;
         & .Top_Card_Count{
             margin-top: -1.8em;
+        }
+        & .Top_Card_Foot {
+            margin-top: 10px;
         }
     }
 }

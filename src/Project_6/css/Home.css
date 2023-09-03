@@ -239,7 +239,7 @@
         border-radius: 10px;
         & > img{
             border-radius: 10px;
-            height: 18rem;
+            height: 12rem;
         }
         & .Latest_Card_Overview{
             gap: 0.5em;
@@ -271,7 +271,10 @@
         }
     }
     .Stories{
-        padding: 10px;      
+        padding: 10px;
+        & .Stories_Foot{
+            margin-top: 2em;
+        }      
     }
     .Bottom_Thumb , .Advertisement{
         display: none;

@@ -154,7 +154,7 @@ const HomeComp = () => {
                           <div className='Latest_Card_Overview Stories_Overview'>
                               <p className='Latest_Card_Head'>{item.heading}</p>
                               <p className='Latest_Card_Subhead Stories_Subhead'>{item.content}</p>
-                              <p className='Latest_Card_Foot'><span>{item.genre}</span> / {item.date}</p>
+                              <p className='Latest_Card_Foot Stories_Foot'><span>{item.genre}</span> / {item.date}</p>
                           </div>
                       </Link>
                 )})}

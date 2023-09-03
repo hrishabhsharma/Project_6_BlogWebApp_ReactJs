@@ -73,7 +73,7 @@
 
 @media only screen and (min-width:280px) and (max-width:555px){
     .Main-Body{
-        padding-top: 5em;
+        padding-top: 7em;
         flex-direction: column;
         margin-top: 1em;
         & .Left-Tile , .Right-Tile{
