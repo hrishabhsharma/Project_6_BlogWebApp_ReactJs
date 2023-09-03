@@ -42,8 +42,10 @@ const HomeComp = () => {
                   onClick={ScrollToTop}
                   className={`Thumb Thumb${index+1}`}
                   style={{backgroundImage:`url(${item.image})`}}>
-                      <p className='head'>{item.heading}</p>
-                      <p className='foot'><span>{item.genre}</span> / {item.date}</p>
+                      <div className='Text_Box'>
+                        <p className='head'>{item.heading}</p>
+                        <p className='foot'><span>{item.genre}</span> / {item.date}</p>
+                      </div>
             </Link>
           )})}
       </div>
@@ -113,8 +115,10 @@ const HomeComp = () => {
                             onClick={ScrollToTop}
                             className={`Bottom_Thumb`}
                             style={{backgroundImage:`url(${item.image})`}}>
+                              <div className='Text_Box'>
                                 <p className='head'>{item.heading}</p>
                                 <p className='foot'><span>{item.genre}</span> / {item.date}</p>
+                              </div>
                       </Link>
             )})}
           </div>

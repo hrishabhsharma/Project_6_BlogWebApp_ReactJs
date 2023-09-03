@@ -156,7 +156,7 @@
         letter-spacing: 0.2px;
     }
     .All_Card_Subhead{
-        -webkit-line-clamp: 4;
+        -webkit-line-clamp: 3;
     }
     .Top_Card{
         height: 7em;
