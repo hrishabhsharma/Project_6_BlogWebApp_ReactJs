@@ -97,13 +97,11 @@
     }
     & .Latest_Card_Head{
         font-size: 1.3em;
-        height: 4em;
         color: #404040;
         font-weight: 500;
         -webkit-line-clamp: 3;
     }
     & .Latest_Card_Subhead{
-        height: 4em;
         font-size: .8rem;
         color: #908D8D;
         -webkit-line-clamp: 3;
@@ -141,7 +139,6 @@
     & .Stories_Overview{
         gap: 0.5em;
         & .Stories_Subhead{
-            height: 9.4em;
             -webkit-line-clamp: 7;
         }  
     }  
@@ -238,19 +235,16 @@
         margin: 1em 0em;
     }
     .Latest_Card{
-        height: 27em;
         width: 90%;
-        padding: 5px 10px;
         border-radius: 10px;
         & > img{
             border-radius: 10px;
-            height: 20rem;
+            height: 18rem;
         }
         & .Latest_Card_Overview{
             gap: 0.5em;
         }
         & .Latest_Card_Head{
-            height: 3em;
             font-size: 1.3em;
             -webkit-line-clamp: 2;
         }
@@ -277,8 +271,7 @@
         }
     }
     .Stories{
-        padding: 10px;
-        height: 15em;        
+        padding: 10px;      
     }
     .Bottom_Thumb , .Advertisement{
         display: none;
