@@ -272,8 +272,14 @@
     }
     .Stories{
         padding: 10px;
+        & .Stories_Overview{
+            gap: 1em;
+        }
+        & .Stories_Subhead {
+            -webkit-line-clamp: 8;
+        }
         & .Stories_Foot{
-            margin-top: 2em;
+            margin-top: 1em;
         }      
     }
     .Bottom_Thumb , .Advertisement{

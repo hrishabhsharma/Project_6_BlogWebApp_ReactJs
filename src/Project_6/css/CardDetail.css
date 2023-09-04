@@ -12,16 +12,16 @@
         height: 100%;
         & .left{
             font-size: 1em;
-            }
+        }
         & .right{
             font-size: 2em;
-            }
-        } 
+        }
+    } 
     & .CardHeader_Logo_GetStarted{
         border: 1px solid #03a87c;
         color: #03a87c;
         padding: 5px 10px;
-        }
+    }
 }
 
 .Floating_Section{
@@ -218,6 +218,19 @@
     }
 }
 @media only screen and (min-width:280px) and (max-width:555px){
+    .Card_Header{
+        & .Logo{
+            & .left{
+                margin-top: 3px;
+            }
+            & .right{
+                font-size: 2.5em;
+            }
+        } 
+        & .CardHeader_Logo_GetStarted{
+            font-size: 1.2em
+        }
+    }
     .Card_Main_Body{
         max-width: 85vw;
     }
@@ -226,44 +239,39 @@
     }
     .Back_Button_Sliding{
         float: none;
-        top: -1em;
+        top: 0em;
         left: 35%;
     }
     .Content{
         width: 100%;
-        margin: auto;
+        margin: 1em auto;
     }
     .Author{
         flex-direction: column-reverse;
     }
     .Author_Details{
         gap: 1.5em;
-    }
-    .Author_Details img{
-        width: 15%;
-    }
-    .Author_Details span{
-        letter-spacing: 1px;
-        font-size: 1rem;
-        line-height: 1.5em;
-    }
-    .Author_Details p{
-        font-size: 1.5rem;  
-    }
-    .Bottom_Author img{
-        width: 18%;
-    }
-    .Social_Sites{
-        align-self: flex-start;
-        height: 3em;
-        & svg{
-            height: 1.5em;
-            width: 1.5em;
+        & img{
+            width: 15%;
+        }
+        & span{
+            letter-spacing: 1px;
+            line-height: 2em;
         }
     }
-    .Like_Box{
-        margin-bottom: 2em;
+    .Bottom_Author{
+        & span{
+            line-height: 1.3em;
+        }
+    }
+    .Social_Sites{
+        align-self: flex-end;
+        & svg{
+            height: 1em;
+            width: 1em;
+        }
+    }
+    .Lang_Tag {
+        margin-top: 1em;
     }
 }
-
-
