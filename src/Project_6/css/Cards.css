@@ -104,7 +104,6 @@
 
 @media screen and (max-width: 900px){
     .Top_Card{
-        height: 6em;
         & .Top_Card_Count{
             font-size: 2.2em;
         }
@@ -120,16 +119,12 @@
     .All_Card_right_side , .Top_Card_right_side{
         padding: 0px 5px;
     }
-    .All_Card_Head , .Top_Card_Head{
+    .All_Card_Head{
         font-size: 1.2em;
     }
     .Top_Card_Head{
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
-    /* .Top_Card_Foot{
-        font-size: 0.5em;
-        letter-spacing: 0px;
-    } */
     .Top_Card:first-child{
             height: 14.5em;
         & .Top_Card_right_side{

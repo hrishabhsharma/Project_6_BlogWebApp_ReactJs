@@ -9,7 +9,6 @@ Footer{
     padding: 1em 0em;
     width: 80vw;
     margin: auto;
-    /* margin-top: 20px; */
 }
 .Footer_Body_Left{
     display: flex;
@@ -86,6 +85,7 @@ Footer{
         align-self: center;
         gap: 0.5em;
         & .Logo{
+            align-self: flex-start;
             & > .left{
                 font-size: 1em;
                 padding-bottom: 2px;
@@ -96,9 +96,9 @@ Footer{
         }
     }
     .Footer_Body_Middle{
+        justify-content: space-between;
         align-self: center;
         width: 90%;
-        gap: 1.5em;
         margin: 1em 0;
         & .Blog , .Resources , .Partners{
             & div{
@@ -112,8 +112,8 @@ Footer{
         gap: 0.5em;
     }
     .Copyright{
-        width: 90vw;
-        padding: 0.5em 0;
+        width: 100%;
+        padding: 0.5em 2em;
         & div{
             gap: 0.3em;
         }
@@ -124,14 +124,6 @@ Footer{
     .Footer_Body{
         width: 100%;
         padding: 0.7em 0em;
-    }
-    .Footer_Body_Left{
-        & .Logo{
-            border: none;
-            box-shadow: none;
-            padding: 0;
-            justify-content: start;
-        }
     }
     .Footer_Body_Middle{
         justify-content: space-around;
@@ -145,8 +137,6 @@ Footer{
         gap: 0.3em;
     }
     .Copyright{
-        width: 100%;
         padding: 0.2em;
     }
-
 }

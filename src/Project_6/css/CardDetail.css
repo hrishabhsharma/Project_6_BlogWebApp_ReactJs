@@ -102,9 +102,6 @@
     gap: 10px;
     width: 60%;
     margin: 0px 15em;
-    /* margin-top: 10px;
-    margin-right: auto; */
-    /* margin: 10px auto; */
 }
 
 .Content_Title{
@@ -171,16 +168,15 @@
 
 @media screen and (max-width: 900px){
     .Card_Header{
-        padding: 1em;
-    }
-    .Card_Main_Body{
-        max-width: 90vw;
+        padding: 1em 2em;
+        & .CardHeader_Logo_GetStarted{
+            font-size: 1.2em
+        }
     }
     .Floating_Section{
         gap: 1rem;
         top: 40vh;
-        padding: 0;
-        margin-right: -30px;
+        left: 3em;
         & .Like_Box , .Share_Box{
             gap: 1rem;
         }
@@ -188,6 +184,9 @@
             width: 75%;
         }
     }
+    .Card_Main_Body{
+        max-width: 90vw;
+    }    
     .Back_Button_Sliding{
         top: 10px;
         width: 100px;
@@ -227,9 +226,6 @@
                 font-size: 2.5em;
             }
         } 
-        & .CardHeader_Logo_GetStarted{
-            font-size: 1.2em
-        }
     }
     .Card_Main_Body{
         max-width: 85vw;
